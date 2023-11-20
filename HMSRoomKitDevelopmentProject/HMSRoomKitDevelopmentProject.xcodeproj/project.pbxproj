@@ -20,6 +20,202 @@
 		87A408102ABB00C700FF8700 /* JoiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080E2ABB00C700FF8700 /* JoiningView.swift */; };
 		87A408112ABB00C700FF8700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080F2ABB00C700FF8700 /* ContentView.swift */; };
 		87A408132ABB012000FF8700 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A408122ABB012000FF8700 /* SampleHandler.swift */; };
+		87ACD2342B0B4741009B3290 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87ACD1602B0B4741009B3290 /* Media.xcassets */; };
+		87ACD2352B0B4741009B3290 /* HMSRoomKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1622B0B4741009B3290 /* HMSRoomKit.swift */; };
+		87ACD2362B0B4741009B3290 /* HMSTallVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1642B0B4741009B3290 /* HMSTallVGridView.swift */; };
+		87ACD2372B0B4741009B3290 /* HMSHalfSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1652B0B4741009B3290 /* HMSHalfSheet.swift */; };
+		87ACD2382B0B4741009B3290 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1662B0B4741009B3290 /* ArrayExtension.swift */; };
+		87ACD2392B0B4741009B3290 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1672B0B4741009B3290 /* ImageExtension.swift */; };
+		87ACD23A2B0B4741009B3290 /* HMSDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1682B0B4741009B3290 /* HMSDivider.swift */; };
+		87ACD23B2B0B4741009B3290 /* HMSAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1692B0B4741009B3290 /* HMSAsyncImage.swift */; };
+		87ACD23C2B0B4741009B3290 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD16C2B0B4741009B3290 /* Environment.swift */; };
+		87ACD23D2B0B4741009B3290 /* HMSPrebuiltConferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD16D2B0B4741009B3290 /* HMSPrebuiltConferenceView.swift */; };
+		87ACD23E2B0B4741009B3290 /* HMSRoomInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD16E2B0B4741009B3290 /* HMSRoomInfoModel.swift */; };
+		87ACD23F2B0B4741009B3290 /* HMSPrebuiltMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD16F2B0B4741009B3290 /* HMSPrebuiltMeetingView.swift */; };
+		87ACD2402B0B4741009B3290 /* HMSLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1702B0B4741009B3290 /* HMSLoadingScreen.swift */; };
+		87ACD2412B0B4741009B3290 /* HMSRoomKitPollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1712B0B4741009B3290 /* HMSRoomKitPollModel.swift */; };
+		87ACD2422B0B4741009B3290 /* HMSPrebuiltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1732B0B4741009B3290 /* HMSPrebuiltView.swift */; };
+		87ACD2432B0B4741009B3290 /* HMSPrebuiltOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1742B0B4741009B3290 /* HMSPrebuiltOptions.swift */; };
+		87ACD2442B0B4741009B3290 /* HMSVideoTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1762B0B4741009B3290 /* HMSVideoTrackView.swift */; };
+		87ACD2452B0B4741009B3290 /* HMSJoinLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1772B0B4741009B3290 /* HMSJoinLabelView.swift */; };
+		87ACD2462B0B4741009B3290 /* ErrorWarningAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1782B0B4741009B3290 /* ErrorWarningAlertView.swift */; };
+		87ACD2472B0B4741009B3290 /* HMSLiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1792B0B4741009B3290 /* HMSLiveLabel.swift */; };
+		87ACD2482B0B4741009B3290 /* HMSXMarkCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD17B2B0B4741009B3290 /* HMSXMarkCircleView.swift */; };
+		87ACD2492B0B4741009B3290 /* HMSExpandIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD17C2B0B4741009B3290 /* HMSExpandIconView.swift */; };
+		87ACD24A2B0B4741009B3290 /* HMSOptionsToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD17D2B0B4741009B3290 /* HMSOptionsToggleView.swift */; };
+		87ACD24B2B0B4741009B3290 /* HMSChatToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD17E2B0B4741009B3290 /* HMSChatToggleView.swift */; };
+		87ACD24C2B0B4741009B3290 /* HMSCameraToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD17F2B0B4741009B3290 /* HMSCameraToggleView.swift */; };
+		87ACD24D2B0B4741009B3290 /* HMSSpeakerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1802B0B4741009B3290 /* HMSSpeakerButtonView.swift */; };
+		87ACD24E2B0B4741009B3290 /* HMSHandRaisedIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1812B0B4741009B3290 /* HMSHandRaisedIconView.swift */; };
+		87ACD24F2B0B4741009B3290 /* HMSEmojiToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1822B0B4741009B3290 /* HMSEmojiToggleView.swift */; };
+		87ACD2502B0B4741009B3290 /* HMSMicToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1832B0B4741009B3290 /* HMSMicToggleView.swift */; };
+		87ACD2512B0B4741009B3290 /* HMSBRBIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1842B0B4741009B3290 /* HMSBRBIconView.swift */; };
+		87ACD2522B0B4741009B3290 /* HMSScreenToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1852B0B4741009B3290 /* HMSScreenToggleView.swift */; };
+		87ACD2532B0B4741009B3290 /* HMSGearButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1862B0B4741009B3290 /* HMSGearButtonView.swift */; };
+		87ACD2542B0B4741009B3290 /* HMSEndCallButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1872B0B4741009B3290 /* HMSEndCallButtonView.swift */; };
+		87ACD2552B0B4741009B3290 /* HMSBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1882B0B4741009B3290 /* HMSBackButtonView.swift */; };
+		87ACD2562B0B4741009B3290 /* HMSWifiSignalView0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD18A2B0B4741009B3290 /* HMSWifiSignalView0.swift */; };
+		87ACD2572B0B4741009B3290 /* HMSWifiSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD18B2B0B4741009B3290 /* HMSWifiSignalView.swift */; };
+		87ACD2582B0B4741009B3290 /* HMSWifiSignalView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD18C2B0B4741009B3290 /* HMSWifiSignalView2.swift */; };
+		87ACD2592B0B4741009B3290 /* HMSWifiSignalView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD18D2B0B4741009B3290 /* HMSWifiSignalView4.swift */; };
+		87ACD25A2B0B4741009B3290 /* HMSWifiSignalView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD18E2B0B4741009B3290 /* HMSWifiSignalView3.swift */; };
+		87ACD25B2B0B4741009B3290 /* HMSWifiSignalView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD18F2B0B4741009B3290 /* HMSWifiSignalView1.swift */; };
+		87ACD25C2B0B4741009B3290 /* HMSSwitchCameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1902B0B4741009B3290 /* HMSSwitchCameraButtonView.swift */; };
+		87ACD25D2B0B4741009B3290 /* HMSParticipantNameLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1912B0B4741009B3290 /* HMSParticipantNameLabelView.swift */; };
+		87ACD25E2B0B4741009B3290 /* HMSPreviewParticipantsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1922B0B4741009B3290 /* HMSPreviewParticipantsLabelView.swift */; };
+		87ACD25F2B0B4741009B3290 /* HMSAudioLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1932B0B4741009B3290 /* HMSAudioLevelsView.swift */; };
+		87ACD2602B0B4741009B3290 /* HMSJoinNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1942B0B4741009B3290 /* HMSJoinNameView.swift */; };
+		87ACD2612B0B4741009B3290 /* HMSLocalScreenShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1952B0B4741009B3290 /* HMSLocalScreenShareView.swift */; };
+		87ACD2622B0B4741009B3290 /* HMSAudioTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1962B0B4741009B3290 /* HMSAudioTrackView.swift */; };
+		87ACD2632B0B4741009B3290 /* HMSParticipantScreenNameLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1972B0B4741009B3290 /* HMSParticipantScreenNameLabelView.swift */; };
+		87ACD2642B0B4741009B3290 /* audio-level-white.json in Resources */ = {isa = PBXBuildFile; fileRef = 87ACD1982B0B4741009B3290 /* audio-level-white.json */; };
+		87ACD2652B0B4741009B3290 /* HMSStreamingStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD19A2B0B4741009B3290 /* HMSStreamingStatusView.swift */; };
+		87ACD2662B0B4741009B3290 /* HMSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD19B2B0B4741009B3290 /* HMSSegmentedControl.swift */; };
+		87ACD2672B0B4741009B3290 /* HMSHandRaisedToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD19C2B0B4741009B3290 /* HMSHandRaisedToggleView.swift */; };
+		87ACD2682B0B4741009B3290 /* HMSCompanyLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD19D2B0B4741009B3290 /* HMSCompanyLogoView.swift */; };
+		87ACD2692B0B4741009B3290 /* HMSCameraToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD19E2B0B4741009B3290 /* HMSCameraToggle.swift */; };
+		87ACD26A2B0B4741009B3290 /* HMSJoinNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD19F2B0B4741009B3290 /* HMSJoinNameLabel.swift */; };
+		87ACD26B2B0B4741009B3290 /* HMSDeviceSettingsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A02B0B4741009B3290 /* HMSDeviceSettingsSheetView.swift */; };
+		87ACD26C2B0B4741009B3290 /* HMSPeerVideoMuteOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A12B0B4741009B3290 /* HMSPeerVideoMuteOptionView.swift */; };
+		87ACD26D2B0B4741009B3290 /* PollCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A42B0B4741009B3290 /* PollCreateViewModel.swift */; };
+		87ACD26E2B0B4741009B3290 /* PollListEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A52B0B4741009B3290 /* PollListEntryView.swift */; };
+		87ACD26F2B0B4741009B3290 /* PollOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A72B0B4741009B3290 /* PollOptionView.swift */; };
+		87ACD2702B0B4741009B3290 /* PollQuestionsCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A82B0B4741009B3290 /* PollQuestionsCreateView.swift */; };
+		87ACD2712B0B4741009B3290 /* PollQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1A92B0B4741009B3290 /* PollQuestionsView.swift */; };
+		87ACD2722B0B4741009B3290 /* QuestionCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1AA2B0B4741009B3290 /* QuestionCreateViewModel.swift */; };
+		87ACD2732B0B4741009B3290 /* QuestionOptionCreateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1AB2B0B4741009B3290 /* QuestionOptionCreateModel.swift */; };
+		87ACD2742B0B4741009B3290 /* QuestionCreateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1AC2B0B4741009B3290 /* QuestionCreateModel.swift */; };
+		87ACD2752B0B4741009B3290 /* PollCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1AD2B0B4741009B3290 /* PollCreateView.swift */; };
+		87ACD2762B0B4741009B3290 /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B02B0B4741009B3290 /* PickerField.swift */; };
+		87ACD2772B0B4741009B3290 /* PollStateBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B12B0B4741009B3290 /* PollStateBadgeView.swift */; };
+		87ACD2782B0B4741009B3290 /* PollTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B22B0B4741009B3290 /* PollTypeButton.swift */; };
+		87ACD2792B0B4741009B3290 /* PollStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B32B0B4741009B3290 /* PollStyles.swift */; };
+		87ACD27A2B0B4741009B3290 /* PollDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B42B0B4741009B3290 /* PollDivider.swift */; };
+		87ACD27B2B0B4741009B3290 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B52B0B4741009B3290 /* SwitchView.swift */; };
+		87ACD27C2B0B4741009B3290 /* PollTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B62B0B4741009B3290 /* PollTextField.swift */; };
+		87ACD27D2B0B4741009B3290 /* PollVoteQuestionOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B82B0B4741009B3290 /* PollVoteQuestionOptionViewModel.swift */; };
+		87ACD27E2B0B4741009B3290 /* PollVoteQuestionOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1B92B0B4741009B3290 /* PollVoteQuestionOptionView.swift */; };
+		87ACD27F2B0B4741009B3290 /* QuizVoteQuestionOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1BA2B0B4741009B3290 /* QuizVoteQuestionOptionView.swift */; };
+		87ACD2802B0B4741009B3290 /* PollVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1BB2B0B4741009B3290 /* PollVoteView.swift */; };
+		87ACD2812B0B4741009B3290 /* PollVoteQuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1BC2B0B4741009B3290 /* PollVoteQuestionViewModel.swift */; };
+		87ACD2822B0B4741009B3290 /* PollVoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1BD2B0B4741009B3290 /* PollVoteViewModel.swift */; };
+		87ACD2832B0B4741009B3290 /* PollVoteQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1BE2B0B4741009B3290 /* PollVoteQuestionView.swift */; };
+		87ACD2842B0B4741009B3290 /* PollSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C02B0B4741009B3290 /* PollSummaryViewModel.swift */; };
+		87ACD2852B0B4741009B3290 /* PollSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C12B0B4741009B3290 /* PollSummaryView.swift */; };
+		87ACD2862B0B4741009B3290 /* HMSShareScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C22B0B4741009B3290 /* HMSShareScreenButton.swift */; };
+		87ACD2872B0B4741009B3290 /* HMSPeerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C32B0B4741009B3290 /* HMSPeerOptionsView.swift */; };
+		87ACD2882B0B4741009B3290 /* HMSMicToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C42B0B4741009B3290 /* HMSMicToggle.swift */; };
+		87ACD2892B0B4741009B3290 /* HMSMessageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C52B0B4741009B3290 /* HMSMessageOptionsView.swift */; };
+		87ACD28A2B0B4741009B3290 /* HMSParticipantNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C62B0B4741009B3290 /* HMSParticipantNameLabel.swift */; };
+		87ACD28B2B0B4741009B3290 /* HMSPeerAudioMuteOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C72B0B4741009B3290 /* HMSPeerAudioMuteOptionView.swift */; };
+		87ACD28C2B0B4741009B3290 /* HMSParticipantScreenNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C82B0B4741009B3290 /* HMSParticipantScreenNameLabel.swift */; };
+		87ACD28D2B0B4741009B3290 /* HMSScreenShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1C92B0B4741009B3290 /* HMSScreenShareButton.swift */; };
+		87ACD28E2B0B4741009B3290 /* HMSPeerVolumeOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1CA2B0B4741009B3290 /* HMSPeerVolumeOptionView.swift */; };
+		87ACD28F2B0B4741009B3290 /* HMSOptionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1CB2B0B4741009B3290 /* HMSOptionSheetView.swift */; };
+		87ACD2902B0B4741009B3290 /* HMSSwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1CC2B0B4741009B3290 /* HMSSwitchCameraButton.swift */; };
+		87ACD2912B0B4741009B3290 /* HMSJoinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1CD2B0B4741009B3290 /* HMSJoinButton.swift */; };
+		87ACD2922B0B4741009B3290 /* HMSChatAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1CE2B0B4741009B3290 /* HMSChatAvatarView.swift */; };
+		87ACD2932B0B4741009B3290 /* HMSScreenShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1CF2B0B4741009B3290 /* HMSScreenShareView.swift */; };
+		87ACD2942B0B4741009B3290 /* HMSPreviewNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D02B0B4741009B3290 /* HMSPreviewNameLabel.swift */; };
+		87ACD2952B0B4741009B3290 /* HMSAirplayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D12B0B4741009B3290 /* HMSAirplayButton.swift */; };
+		87ACD2962B0B4741009B3290 /* HMSCancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D22B0B4741009B3290 /* HMSCancelButton.swift */; };
+		87ACD2972B0B4741009B3290 /* HMSNewMessagesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D32B0B4741009B3290 /* HMSNewMessagesButton.swift */; };
+		87ACD2982B0B4741009B3290 /* HMSEndCallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D52B0B4741009B3290 /* HMSEndCallButton.swift */; };
+		87ACD2992B0B4741009B3290 /* EndSessionAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D62B0B4741009B3290 /* EndSessionAlertView.swift */; };
+		87ACD29A2B0B4741009B3290 /* HMSEndCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D72B0B4741009B3290 /* HMSEndCallView.swift */; };
+		87ACD29B2B0B4741009B3290 /* HMSEndCallOptionPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D82B0B4741009B3290 /* HMSEndCallOptionPopover.swift */; };
+		87ACD29C2B0B4741009B3290 /* HMSLeaveCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1D92B0B4741009B3290 /* HMSLeaveCallView.swift */; };
+		87ACD29D2B0B4741009B3290 /* EndSessionOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1DA2B0B4741009B3290 /* EndSessionOptionView.swift */; };
+		87ACD29E2B0B4741009B3290 /* HMSLeaveCallOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1DB2B0B4741009B3290 /* HMSLeaveCallOptionsView.swift */; };
+		87ACD29F2B0B4741009B3290 /* HMSChangeNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1DC2B0B4741009B3290 /* HMSChangeNameView.swift */; };
+		87ACD2A02B0B4741009B3290 /* HMSStopRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1DD2B0B4741009B3290 /* HMSStopRecordingView.swift */; };
+		87ACD2A12B0B4741009B3290 /* HMSParticipantCountStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1DE2B0B4741009B3290 /* HMSParticipantCountStatusView.swift */; };
+		87ACD2A22B0B4741009B3290 /* HMSRecordingStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1DF2B0B4741009B3290 /* HMSRecordingStatusView.swift */; };
+		87ACD2A32B0B4741009B3290 /* HMSDefaultTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1E02B0B4741009B3290 /* HMSDefaultTileView.swift */; };
+		87ACD2A42B0B4741009B3290 /* HMSScreenSharePaginatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1E22B0B4741009B3290 /* HMSScreenSharePaginatedView.swift */; };
+		87ACD2A52B0B4741009B3290 /* HMSPreviewTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1E32B0B4741009B3290 /* HMSPreviewTile.swift */; };
+		87ACD2A62B0B4741009B3290 /* HMSChatParticipantToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1E52B0B4741009B3290 /* HMSChatParticipantToggleView.swift */; };
+		87ACD2A72B0B4741009B3290 /* HMSBottomChatStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1E72B0B4741009B3290 /* HMSBottomChatStrip.swift */; };
+		87ACD2A82B0B4741009B3290 /* HMSTransparentChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1E82B0B4741009B3290 /* HMSTransparentChatScreen.swift */; };
+		87ACD2A92B0B4741009B3290 /* HMSChatPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1EA2B0B4741009B3290 /* HMSChatPlaceholderView.swift */; };
+		87ACD2AA2B0B4741009B3290 /* HMSRolePickerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1EB2B0B4741009B3290 /* HMSRolePickerOptions.swift */; };
+		87ACD2AB2B0B4741009B3290 /* HMSPinnedChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1EC2B0B4741009B3290 /* HMSPinnedChatMessageView.swift */; };
+		87ACD2AC2B0B4741009B3290 /* HMSRolePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1ED2B0B4741009B3290 /* HMSRolePicker.swift */; };
+		87ACD2AD2B0B4741009B3290 /* HMSChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1EF2B0B4741009B3290 /* HMSChatScreen.swift */; };
+		87ACD2AE2B0B4741009B3290 /* HMSParticipantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F02B0B4741009B3290 /* HMSParticipantListView.swift */; };
+		87ACD2AF2B0B4741009B3290 /* HMSChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F22B0B4741009B3290 /* HMSChatListView.swift */; };
+		87ACD2B02B0B4741009B3290 /* HMSChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F32B0B4741009B3290 /* HMSChatMessageView.swift */; };
+		87ACD2B12B0B4741009B3290 /* HMSSenHMSSendChatField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F42B0B4741009B3290 /* HMSSenHMSSendChatField.swift */; };
+		87ACD2B22B0B4741009B3290 /* HMSPeerScreenTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F52B0B4741009B3290 /* HMSPeerScreenTile.swift */; };
+		87ACD2B32B0B4741009B3290 /* HMSPeerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F72B0B4741009B3290 /* HMSPeerTile.swift */; };
+		87ACD2B42B0B4741009B3290 /* PeerTileEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1F82B0B4741009B3290 /* PeerTileEnvironment.swift */; };
+		87ACD2B52B0B4741009B3290 /* HMSBottomControlStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1FB2B0B4741009B3290 /* HMSBottomControlStrip.swift */; };
+		87ACD2B62B0B4741009B3290 /* HMSChatOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1FC2B0B4741009B3290 /* HMSChatOverlay.swift */; };
+		87ACD2B72B0B4741009B3290 /* HMSMainConferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1FD2B0B4741009B3290 /* HMSMainConferenceView.swift */; };
+		87ACD2B82B0B4741009B3290 /* HMSDefaultConferenceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1FE2B0B4741009B3290 /* HMSDefaultConferenceScreen.swift */; };
+		87ACD2B92B0B4741009B3290 /* HMSTopControlStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD1FF2B0B4741009B3290 /* HMSTopControlStrip.swift */; };
+		87ACD2BA2B0B4741009B3290 /* ConferenceEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2002B0B4741009B3290 /* ConferenceEnvironment.swift */; };
+		87ACD2BB2B0B4741009B3290 /* PeerModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2022B0B4741009B3290 /* PeerModelExtension.swift */; };
+		87ACD2BC2B0B4741009B3290 /* RoomModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2032B0B4741009B3290 /* RoomModelExtension.swift */; };
+		87ACD2BD2B0B4741009B3290 /* HMSRoomKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2042B0B4741009B3290 /* HMSRoomKitModel.swift */; };
+		87ACD2BE2B0B4741009B3290 /* HMSConferenceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2062B0B4741009B3290 /* HMSConferenceScreen.swift */; };
+		87ACD2BF2B0B4741009B3290 /* ConferencingComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2072B0B4741009B3290 /* ConferencingComponentType.swift */; };
+		87ACD2C02B0B4741009B3290 /* HMSNotificationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2092B0B4741009B3290 /* HMSNotificationStackView.swift */; };
+		87ACD2C12B0B4741009B3290 /* HMSRoomKitNotification-Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD20B2B0B4741009B3290 /* HMSRoomKitNotification-Actions.swift */; };
+		87ACD2C22B0B4741009B3290 /* HMSRoomKitNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD20C2B0B4741009B3290 /* HMSRoomKitNotification.swift */; };
+		87ACD2C32B0B4741009B3290 /* HMSNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD20D2B0B4741009B3290 /* HMSNotificationView.swift */; };
+		87ACD2C42B0B4741009B3290 /* HMSMinimizedTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD20F2B0B4741009B3290 /* HMSMinimizedTile.swift */; };
+		87ACD2C52B0B4741009B3290 /* HMSInsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2102B0B4741009B3290 /* HMSInsetView.swift */; };
+		87ACD2C62B0B4741009B3290 /* HMSPeerGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2122B0B4741009B3290 /* HMSPeerGridLayout.swift */; };
+		87ACD2C72B0B4741009B3290 /* HMSPaginatedBottomTilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2132B0B4741009B3290 /* HMSPaginatedBottomTilesView.swift */; };
+		87ACD2C82B0B4741009B3290 /* HMSPeerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2142B0B4741009B3290 /* HMSPeerLayout.swift */; };
+		87ACD2C92B0B4741009B3290 /* HMSScreenProminenceLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2152B0B4741009B3290 /* HMSScreenProminenceLayout.swift */; };
+		87ACD2CA2B0B4741009B3290 /* HMSPeerProminenceLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2162B0B4741009B3290 /* HMSPeerProminenceLayout.swift */; };
+		87ACD2CB2B0B4741009B3290 /* HMSPeerVerticalListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2172B0B4741009B3290 /* HMSPeerVerticalListLayout.swift */; };
+		87ACD2CC2B0B4742009B3290 /* HMSHLSViewerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2192B0B4741009B3290 /* HMSHLSViewerScreen.swift */; };
+		87ACD2CD2B0B4742009B3290 /* HMSStreamNotStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD21A2B0B4741009B3290 /* HMSStreamNotStartedView.swift */; };
+		87ACD2CE2B0B4742009B3290 /* HMSPreviewBottomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD21D2B0B4741009B3290 /* HMSPreviewBottomOverlay.swift */; };
+		87ACD2CF2B0B4742009B3290 /* HMSPreviewRoleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD21E2B0B4741009B3290 /* HMSPreviewRoleScreen.swift */; };
+		87ACD2D02B0B4742009B3290 /* HMSPreviewTopOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD21F2B0B4741009B3290 /* HMSPreviewTopOverlay.swift */; };
+		87ACD2D12B0B4742009B3290 /* HMSPreviewRoleBottomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2202B0B4741009B3290 /* HMSPreviewRoleBottomOverlay.swift */; };
+		87ACD2D22B0B4742009B3290 /* PreviewEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2212B0B4741009B3290 /* PreviewEnvironment.swift */; };
+		87ACD2D32B0B4742009B3290 /* HMSPreviewScreenLiveStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2222B0B4741009B3290 /* HMSPreviewScreenLiveStreaming.swift */; };
+		87ACD2D42B0B4742009B3290 /* HMSPermissionDenialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2232B0B4741009B3290 /* HMSPermissionDenialScreen.swift */; };
+		87ACD2D52B0B4742009B3290 /* HMSPreviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2252B0B4741009B3290 /* HMSPreviewScreen.swift */; };
+		87ACD2D62B0B4742009B3290 /* PreviewComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2262B0B4741009B3290 /* PreviewComponentType.swift */; };
+		87ACD2D72B0B4742009B3290 /* HMSInsetPeerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2272B0B4741009B3290 /* HMSInsetPeerTile.swift */; };
+		87ACD2D82B0B4742009B3290 /* HMSParticipantsPreviewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2282B0B4741009B3290 /* HMSParticipantsPreviewLabel.swift */; };
+		87ACD2D92B0B4742009B3290 /* HMSEndCallScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD22A2B0B4741009B3290 /* HMSEndCallScreen.swift */; };
+		87ACD2DA2B0B4742009B3290 /* HMSUIFontTheme-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD22C2B0B4741009B3290 /* HMSUIFontTheme-extension.swift */; };
+		87ACD2DB2B0B4742009B3290 /* HMSUITheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD22E2B0B4741009B3290 /* HMSUITheme.swift */; };
+		87ACD2DC2B0B4742009B3290 /* HMSUIColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD22F2B0B4741009B3290 /* HMSUIColorTheme.swift */; };
+		87ACD2DD2B0B4742009B3290 /* HMSUIFontTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2302B0B4741009B3290 /* HMSUIFontTheme.swift */; };
+		87ACD2DE2B0B4742009B3290 /* HMSThemeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2312B0B4741009B3290 /* HMSThemeModifiers.swift */; };
+		87ACD2DF2B0B4742009B3290 /* HMSUIColorTheme-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2322B0B4741009B3290 /* HMSUIColorTheme-extension.swift */; };
+		87ACD2E02B0B4742009B3290 /* HMSRoomKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2332B0B4741009B3290 /* HMSRoomKit.docc */; };
+		87ACD2FC2B0B474F009B3290 /* HMSPeerModel-Higher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E32B0B474E009B3290 /* HMSPeerModel-Higher.swift */; };
+		87ACD2FD2B0B474F009B3290 /* HMSPeerModel-Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E42B0B474E009B3290 /* HMSPeerModel-Base.swift */; };
+		87ACD2FE2B0B474F009B3290 /* HMSPeerModel-Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E52B0B474E009B3290 /* HMSPeerModel-Preview.swift */; };
+		87ACD2FF2B0B474F009B3290 /* HMSPeerModel-Internal-updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E62B0B474E009B3290 /* HMSPeerModel-Internal-updates.swift */; };
+		87ACD3002B0B474F009B3290 /* HMSPeerModel-Base-Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E72B0B474E009B3290 /* HMSPeerModel-Base-Actions.swift */; };
+		87ACD3012B0B474F009B3290 /* HMSPeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E82B0B474E009B3290 /* HMSPeerModel.swift */; };
+		87ACD3022B0B474F009B3290 /* HMSChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2E92B0B474F009B3290 /* HMSChatModels.swift */; };
+		87ACD3032B0B474F009B3290 /* HMSVideoViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2EA2B0B474F009B3290 /* HMSVideoViewRepresentable.swift */; };
+		87ACD3042B0B474F009B3290 /* HMSPeerListIteratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2EB2B0B474F009B3290 /* HMSPeerListIteratorModel.swift */; };
+		87ACD3052B0B474F009B3290 /* HMSRoomModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2EC2B0B474F009B3290 /* HMSRoomModels.swift */; };
+		87ACD3062B0B474F009B3290 /* HMSRoomOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2ED2B0B474F009B3290 /* HMSRoomOptions.swift */; };
+		87ACD3072B0B474F009B3290 /* HMSTrackModel-Base-Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2EF2B0B474F009B3290 /* HMSTrackModel-Base-Actions.swift */; };
+		87ACD3082B0B474F009B3290 /* HMSTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F02B0B474F009B3290 /* HMSTrackModel.swift */; };
+		87ACD3092B0B474F009B3290 /* HMSRoomModel-Higher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F22B0B474F009B3290 /* HMSRoomModel-Higher.swift */; };
+		87ACD30A2B0B474F009B3290 /* HMSRoomModel-Base-Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F32B0B474F009B3290 /* HMSRoomModel-Base-Actions.swift */; };
+		87ACD30B2B0B474F009B3290 /* HMSRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F42B0B474F009B3290 /* HMSRoomModel.swift */; };
+		87ACD30C2B0B474F009B3290 /* HMSRoomModel-Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F52B0B474F009B3290 /* HMSRoomModel-Base.swift */; };
+		87ACD30D2B0B474F009B3290 /* HMSRoomModel-Internal-updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F62B0B474F009B3290 /* HMSRoomModel-Internal-updates.swift */; };
+		87ACD30E2B0B474F009B3290 /* HMSRoomModel-Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F72B0B474F009B3290 /* HMSRoomModel-Preview.swift */; };
+		87ACD30F2B0B474F009B3290 /* HMSRoomModel-Internal-Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F82B0B474F009B3290 /* HMSRoomModel-Internal-Callbacks.swift */; };
+		87ACD3102B0B474F009B3290 /* SessionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2F92B0B474F009B3290 /* SessionMetadata.swift */; };
+		87ACD3112B0B474F009B3290 /* PeerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2FA2B0B474F009B3290 /* PeerMetadata.swift */; };
+		87ACD3122B0B474F009B3290 /* HMSHLSPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACD2FB2B0B474F009B3290 /* HMSHLSPlayerView.swift */; };
 		87B1D4172AB81FD8001EBFA7 /* DevelopmentPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B1D4162AB81FD8001EBFA7 /* DevelopmentPlayground.swift */; };
 		87B540652AEFBE200061DE1A /* HMSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 87B540642AEFBE200061DE1A /* HMSSDK */; };
 		87B540672AEFBE200061DE1A /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 87B540662AEFBE200061DE1A /* WebRTC */; };
@@ -75,6 +271,203 @@
 		87A4080E2ABB00C700FF8700 /* JoiningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoiningView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/JoiningView.swift; sourceTree = "<group>"; };
 		87A4080F2ABB00C700FF8700 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/ContentView.swift; sourceTree = "<group>"; };
 		87A408122ABB012000FF8700 /* SampleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleHandler.swift; path = ../../HMSRoomKitExample/Screenshare/SampleHandler.swift; sourceTree = "<group>"; };
+		87ACD1602B0B4741009B3290 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		87ACD1612B0B4741009B3290 /* HMSRoomKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSRoomKit.h; sourceTree = "<group>"; };
+		87ACD1622B0B4741009B3290 /* HMSRoomKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomKit.swift; sourceTree = "<group>"; };
+		87ACD1642B0B4741009B3290 /* HMSTallVGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSTallVGridView.swift; sourceTree = "<group>"; };
+		87ACD1652B0B4741009B3290 /* HMSHalfSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSHalfSheet.swift; sourceTree = "<group>"; };
+		87ACD1662B0B4741009B3290 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		87ACD1672B0B4741009B3290 /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		87ACD1682B0B4741009B3290 /* HMSDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSDivider.swift; sourceTree = "<group>"; };
+		87ACD1692B0B4741009B3290 /* HMSAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSAsyncImage.swift; sourceTree = "<group>"; };
+		87ACD16C2B0B4741009B3290 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		87ACD16D2B0B4741009B3290 /* HMSPrebuiltConferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPrebuiltConferenceView.swift; sourceTree = "<group>"; };
+		87ACD16E2B0B4741009B3290 /* HMSRoomInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomInfoModel.swift; sourceTree = "<group>"; };
+		87ACD16F2B0B4741009B3290 /* HMSPrebuiltMeetingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPrebuiltMeetingView.swift; sourceTree = "<group>"; };
+		87ACD1702B0B4741009B3290 /* HMSLoadingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSLoadingScreen.swift; sourceTree = "<group>"; };
+		87ACD1712B0B4741009B3290 /* HMSRoomKitPollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomKitPollModel.swift; sourceTree = "<group>"; };
+		87ACD1732B0B4741009B3290 /* HMSPrebuiltView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPrebuiltView.swift; sourceTree = "<group>"; };
+		87ACD1742B0B4741009B3290 /* HMSPrebuiltOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPrebuiltOptions.swift; sourceTree = "<group>"; };
+		87ACD1762B0B4741009B3290 /* HMSVideoTrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSVideoTrackView.swift; sourceTree = "<group>"; };
+		87ACD1772B0B4741009B3290 /* HMSJoinLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSJoinLabelView.swift; sourceTree = "<group>"; };
+		87ACD1782B0B4741009B3290 /* ErrorWarningAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorWarningAlertView.swift; sourceTree = "<group>"; };
+		87ACD1792B0B4741009B3290 /* HMSLiveLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSLiveLabel.swift; sourceTree = "<group>"; };
+		87ACD17B2B0B4741009B3290 /* HMSXMarkCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSXMarkCircleView.swift; sourceTree = "<group>"; };
+		87ACD17C2B0B4741009B3290 /* HMSExpandIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSExpandIconView.swift; sourceTree = "<group>"; };
+		87ACD17D2B0B4741009B3290 /* HMSOptionsToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSOptionsToggleView.swift; sourceTree = "<group>"; };
+		87ACD17E2B0B4741009B3290 /* HMSChatToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatToggleView.swift; sourceTree = "<group>"; };
+		87ACD17F2B0B4741009B3290 /* HMSCameraToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSCameraToggleView.swift; sourceTree = "<group>"; };
+		87ACD1802B0B4741009B3290 /* HMSSpeakerButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSSpeakerButtonView.swift; sourceTree = "<group>"; };
+		87ACD1812B0B4741009B3290 /* HMSHandRaisedIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSHandRaisedIconView.swift; sourceTree = "<group>"; };
+		87ACD1822B0B4741009B3290 /* HMSEmojiToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSEmojiToggleView.swift; sourceTree = "<group>"; };
+		87ACD1832B0B4741009B3290 /* HMSMicToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSMicToggleView.swift; sourceTree = "<group>"; };
+		87ACD1842B0B4741009B3290 /* HMSBRBIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSBRBIconView.swift; sourceTree = "<group>"; };
+		87ACD1852B0B4741009B3290 /* HMSScreenToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSScreenToggleView.swift; sourceTree = "<group>"; };
+		87ACD1862B0B4741009B3290 /* HMSGearButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSGearButtonView.swift; sourceTree = "<group>"; };
+		87ACD1872B0B4741009B3290 /* HMSEndCallButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSEndCallButtonView.swift; sourceTree = "<group>"; };
+		87ACD1882B0B4741009B3290 /* HMSBackButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSBackButtonView.swift; sourceTree = "<group>"; };
+		87ACD18A2B0B4741009B3290 /* HMSWifiSignalView0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSWifiSignalView0.swift; sourceTree = "<group>"; };
+		87ACD18B2B0B4741009B3290 /* HMSWifiSignalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSWifiSignalView.swift; sourceTree = "<group>"; };
+		87ACD18C2B0B4741009B3290 /* HMSWifiSignalView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSWifiSignalView2.swift; sourceTree = "<group>"; };
+		87ACD18D2B0B4741009B3290 /* HMSWifiSignalView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSWifiSignalView4.swift; sourceTree = "<group>"; };
+		87ACD18E2B0B4741009B3290 /* HMSWifiSignalView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSWifiSignalView3.swift; sourceTree = "<group>"; };
+		87ACD18F2B0B4741009B3290 /* HMSWifiSignalView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSWifiSignalView1.swift; sourceTree = "<group>"; };
+		87ACD1902B0B4741009B3290 /* HMSSwitchCameraButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSSwitchCameraButtonView.swift; sourceTree = "<group>"; };
+		87ACD1912B0B4741009B3290 /* HMSParticipantNameLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantNameLabelView.swift; sourceTree = "<group>"; };
+		87ACD1922B0B4741009B3290 /* HMSPreviewParticipantsLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewParticipantsLabelView.swift; sourceTree = "<group>"; };
+		87ACD1932B0B4741009B3290 /* HMSAudioLevelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSAudioLevelsView.swift; sourceTree = "<group>"; };
+		87ACD1942B0B4741009B3290 /* HMSJoinNameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSJoinNameView.swift; sourceTree = "<group>"; };
+		87ACD1952B0B4741009B3290 /* HMSLocalScreenShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSLocalScreenShareView.swift; sourceTree = "<group>"; };
+		87ACD1962B0B4741009B3290 /* HMSAudioTrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSAudioTrackView.swift; sourceTree = "<group>"; };
+		87ACD1972B0B4741009B3290 /* HMSParticipantScreenNameLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantScreenNameLabelView.swift; sourceTree = "<group>"; };
+		87ACD1982B0B4741009B3290 /* audio-level-white.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "audio-level-white.json"; sourceTree = "<group>"; };
+		87ACD19A2B0B4741009B3290 /* HMSStreamingStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSStreamingStatusView.swift; sourceTree = "<group>"; };
+		87ACD19B2B0B4741009B3290 /* HMSSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSSegmentedControl.swift; sourceTree = "<group>"; };
+		87ACD19C2B0B4741009B3290 /* HMSHandRaisedToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSHandRaisedToggleView.swift; sourceTree = "<group>"; };
+		87ACD19D2B0B4741009B3290 /* HMSCompanyLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSCompanyLogoView.swift; sourceTree = "<group>"; };
+		87ACD19E2B0B4741009B3290 /* HMSCameraToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSCameraToggle.swift; sourceTree = "<group>"; };
+		87ACD19F2B0B4741009B3290 /* HMSJoinNameLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSJoinNameLabel.swift; sourceTree = "<group>"; };
+		87ACD1A02B0B4741009B3290 /* HMSDeviceSettingsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSDeviceSettingsSheetView.swift; sourceTree = "<group>"; };
+		87ACD1A12B0B4741009B3290 /* HMSPeerVideoMuteOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerVideoMuteOptionView.swift; sourceTree = "<group>"; };
+		87ACD1A42B0B4741009B3290 /* PollCreateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollCreateViewModel.swift; sourceTree = "<group>"; };
+		87ACD1A52B0B4741009B3290 /* PollListEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollListEntryView.swift; sourceTree = "<group>"; };
+		87ACD1A72B0B4741009B3290 /* PollOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollOptionView.swift; sourceTree = "<group>"; };
+		87ACD1A82B0B4741009B3290 /* PollQuestionsCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollQuestionsCreateView.swift; sourceTree = "<group>"; };
+		87ACD1A92B0B4741009B3290 /* PollQuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollQuestionsView.swift; sourceTree = "<group>"; };
+		87ACD1AA2B0B4741009B3290 /* QuestionCreateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCreateViewModel.swift; sourceTree = "<group>"; };
+		87ACD1AB2B0B4741009B3290 /* QuestionOptionCreateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionOptionCreateModel.swift; sourceTree = "<group>"; };
+		87ACD1AC2B0B4741009B3290 /* QuestionCreateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCreateModel.swift; sourceTree = "<group>"; };
+		87ACD1AD2B0B4741009B3290 /* PollCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollCreateView.swift; sourceTree = "<group>"; };
+		87ACD1B02B0B4741009B3290 /* PickerField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
+		87ACD1B12B0B4741009B3290 /* PollStateBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollStateBadgeView.swift; sourceTree = "<group>"; };
+		87ACD1B22B0B4741009B3290 /* PollTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollTypeButton.swift; sourceTree = "<group>"; };
+		87ACD1B32B0B4741009B3290 /* PollStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollStyles.swift; sourceTree = "<group>"; };
+		87ACD1B42B0B4741009B3290 /* PollDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollDivider.swift; sourceTree = "<group>"; };
+		87ACD1B52B0B4741009B3290 /* SwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		87ACD1B62B0B4741009B3290 /* PollTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollTextField.swift; sourceTree = "<group>"; };
+		87ACD1B82B0B4741009B3290 /* PollVoteQuestionOptionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollVoteQuestionOptionViewModel.swift; sourceTree = "<group>"; };
+		87ACD1B92B0B4741009B3290 /* PollVoteQuestionOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollVoteQuestionOptionView.swift; sourceTree = "<group>"; };
+		87ACD1BA2B0B4741009B3290 /* QuizVoteQuestionOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizVoteQuestionOptionView.swift; sourceTree = "<group>"; };
+		87ACD1BB2B0B4741009B3290 /* PollVoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollVoteView.swift; sourceTree = "<group>"; };
+		87ACD1BC2B0B4741009B3290 /* PollVoteQuestionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollVoteQuestionViewModel.swift; sourceTree = "<group>"; };
+		87ACD1BD2B0B4741009B3290 /* PollVoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollVoteViewModel.swift; sourceTree = "<group>"; };
+		87ACD1BE2B0B4741009B3290 /* PollVoteQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollVoteQuestionView.swift; sourceTree = "<group>"; };
+		87ACD1C02B0B4741009B3290 /* PollSummaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollSummaryViewModel.swift; sourceTree = "<group>"; };
+		87ACD1C12B0B4741009B3290 /* PollSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollSummaryView.swift; sourceTree = "<group>"; };
+		87ACD1C22B0B4741009B3290 /* HMSShareScreenButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSShareScreenButton.swift; sourceTree = "<group>"; };
+		87ACD1C32B0B4741009B3290 /* HMSPeerOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerOptionsView.swift; sourceTree = "<group>"; };
+		87ACD1C42B0B4741009B3290 /* HMSMicToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSMicToggle.swift; sourceTree = "<group>"; };
+		87ACD1C52B0B4741009B3290 /* HMSMessageOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSMessageOptionsView.swift; sourceTree = "<group>"; };
+		87ACD1C62B0B4741009B3290 /* HMSParticipantNameLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantNameLabel.swift; sourceTree = "<group>"; };
+		87ACD1C72B0B4741009B3290 /* HMSPeerAudioMuteOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerAudioMuteOptionView.swift; sourceTree = "<group>"; };
+		87ACD1C82B0B4741009B3290 /* HMSParticipantScreenNameLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantScreenNameLabel.swift; sourceTree = "<group>"; };
+		87ACD1C92B0B4741009B3290 /* HMSScreenShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSScreenShareButton.swift; sourceTree = "<group>"; };
+		87ACD1CA2B0B4741009B3290 /* HMSPeerVolumeOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerVolumeOptionView.swift; sourceTree = "<group>"; };
+		87ACD1CB2B0B4741009B3290 /* HMSOptionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSOptionSheetView.swift; sourceTree = "<group>"; };
+		87ACD1CC2B0B4741009B3290 /* HMSSwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSSwitchCameraButton.swift; sourceTree = "<group>"; };
+		87ACD1CD2B0B4741009B3290 /* HMSJoinButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSJoinButton.swift; sourceTree = "<group>"; };
+		87ACD1CE2B0B4741009B3290 /* HMSChatAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatAvatarView.swift; sourceTree = "<group>"; };
+		87ACD1CF2B0B4741009B3290 /* HMSScreenShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSScreenShareView.swift; sourceTree = "<group>"; };
+		87ACD1D02B0B4741009B3290 /* HMSPreviewNameLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewNameLabel.swift; sourceTree = "<group>"; };
+		87ACD1D12B0B4741009B3290 /* HMSAirplayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSAirplayButton.swift; sourceTree = "<group>"; };
+		87ACD1D22B0B4741009B3290 /* HMSCancelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSCancelButton.swift; sourceTree = "<group>"; };
+		87ACD1D32B0B4741009B3290 /* HMSNewMessagesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSNewMessagesButton.swift; sourceTree = "<group>"; };
+		87ACD1D52B0B4741009B3290 /* HMSEndCallButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSEndCallButton.swift; sourceTree = "<group>"; };
+		87ACD1D62B0B4741009B3290 /* EndSessionAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndSessionAlertView.swift; sourceTree = "<group>"; };
+		87ACD1D72B0B4741009B3290 /* HMSEndCallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSEndCallView.swift; sourceTree = "<group>"; };
+		87ACD1D82B0B4741009B3290 /* HMSEndCallOptionPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSEndCallOptionPopover.swift; sourceTree = "<group>"; };
+		87ACD1D92B0B4741009B3290 /* HMSLeaveCallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSLeaveCallView.swift; sourceTree = "<group>"; };
+		87ACD1DA2B0B4741009B3290 /* EndSessionOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndSessionOptionView.swift; sourceTree = "<group>"; };
+		87ACD1DB2B0B4741009B3290 /* HMSLeaveCallOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSLeaveCallOptionsView.swift; sourceTree = "<group>"; };
+		87ACD1DC2B0B4741009B3290 /* HMSChangeNameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChangeNameView.swift; sourceTree = "<group>"; };
+		87ACD1DD2B0B4741009B3290 /* HMSStopRecordingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSStopRecordingView.swift; sourceTree = "<group>"; };
+		87ACD1DE2B0B4741009B3290 /* HMSParticipantCountStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantCountStatusView.swift; sourceTree = "<group>"; };
+		87ACD1DF2B0B4741009B3290 /* HMSRecordingStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRecordingStatusView.swift; sourceTree = "<group>"; };
+		87ACD1E02B0B4741009B3290 /* HMSDefaultTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSDefaultTileView.swift; sourceTree = "<group>"; };
+		87ACD1E22B0B4741009B3290 /* HMSScreenSharePaginatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSScreenSharePaginatedView.swift; sourceTree = "<group>"; };
+		87ACD1E32B0B4741009B3290 /* HMSPreviewTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewTile.swift; sourceTree = "<group>"; };
+		87ACD1E52B0B4741009B3290 /* HMSChatParticipantToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatParticipantToggleView.swift; sourceTree = "<group>"; };
+		87ACD1E72B0B4741009B3290 /* HMSBottomChatStrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSBottomChatStrip.swift; sourceTree = "<group>"; };
+		87ACD1E82B0B4741009B3290 /* HMSTransparentChatScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSTransparentChatScreen.swift; sourceTree = "<group>"; };
+		87ACD1EA2B0B4741009B3290 /* HMSChatPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatPlaceholderView.swift; sourceTree = "<group>"; };
+		87ACD1EB2B0B4741009B3290 /* HMSRolePickerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRolePickerOptions.swift; sourceTree = "<group>"; };
+		87ACD1EC2B0B4741009B3290 /* HMSPinnedChatMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPinnedChatMessageView.swift; sourceTree = "<group>"; };
+		87ACD1ED2B0B4741009B3290 /* HMSRolePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRolePicker.swift; sourceTree = "<group>"; };
+		87ACD1EF2B0B4741009B3290 /* HMSChatScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatScreen.swift; sourceTree = "<group>"; };
+		87ACD1F02B0B4741009B3290 /* HMSParticipantListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantListView.swift; sourceTree = "<group>"; };
+		87ACD1F22B0B4741009B3290 /* HMSChatListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatListView.swift; sourceTree = "<group>"; };
+		87ACD1F32B0B4741009B3290 /* HMSChatMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatMessageView.swift; sourceTree = "<group>"; };
+		87ACD1F42B0B4741009B3290 /* HMSSenHMSSendChatField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSSenHMSSendChatField.swift; sourceTree = "<group>"; };
+		87ACD1F52B0B4741009B3290 /* HMSPeerScreenTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerScreenTile.swift; sourceTree = "<group>"; };
+		87ACD1F72B0B4741009B3290 /* HMSPeerTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerTile.swift; sourceTree = "<group>"; };
+		87ACD1F82B0B4741009B3290 /* PeerTileEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerTileEnvironment.swift; sourceTree = "<group>"; };
+		87ACD1FB2B0B4741009B3290 /* HMSBottomControlStrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSBottomControlStrip.swift; sourceTree = "<group>"; };
+		87ACD1FC2B0B4741009B3290 /* HMSChatOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatOverlay.swift; sourceTree = "<group>"; };
+		87ACD1FD2B0B4741009B3290 /* HMSMainConferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSMainConferenceView.swift; sourceTree = "<group>"; };
+		87ACD1FE2B0B4741009B3290 /* HMSDefaultConferenceScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSDefaultConferenceScreen.swift; sourceTree = "<group>"; };
+		87ACD1FF2B0B4741009B3290 /* HMSTopControlStrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSTopControlStrip.swift; sourceTree = "<group>"; };
+		87ACD2002B0B4741009B3290 /* ConferenceEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceEnvironment.swift; sourceTree = "<group>"; };
+		87ACD2022B0B4741009B3290 /* PeerModelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerModelExtension.swift; sourceTree = "<group>"; };
+		87ACD2032B0B4741009B3290 /* RoomModelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModelExtension.swift; sourceTree = "<group>"; };
+		87ACD2042B0B4741009B3290 /* HMSRoomKitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomKitModel.swift; sourceTree = "<group>"; };
+		87ACD2062B0B4741009B3290 /* HMSConferenceScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSConferenceScreen.swift; sourceTree = "<group>"; };
+		87ACD2072B0B4741009B3290 /* ConferencingComponentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferencingComponentType.swift; sourceTree = "<group>"; };
+		87ACD2092B0B4741009B3290 /* HMSNotificationStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSNotificationStackView.swift; sourceTree = "<group>"; };
+		87ACD20B2B0B4741009B3290 /* HMSRoomKitNotification-Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomKitNotification-Actions.swift"; sourceTree = "<group>"; };
+		87ACD20C2B0B4741009B3290 /* HMSRoomKitNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomKitNotification.swift; sourceTree = "<group>"; };
+		87ACD20D2B0B4741009B3290 /* HMSNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSNotificationView.swift; sourceTree = "<group>"; };
+		87ACD20F2B0B4741009B3290 /* HMSMinimizedTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSMinimizedTile.swift; sourceTree = "<group>"; };
+		87ACD2102B0B4741009B3290 /* HMSInsetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSInsetView.swift; sourceTree = "<group>"; };
+		87ACD2122B0B4741009B3290 /* HMSPeerGridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerGridLayout.swift; sourceTree = "<group>"; };
+		87ACD2132B0B4741009B3290 /* HMSPaginatedBottomTilesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPaginatedBottomTilesView.swift; sourceTree = "<group>"; };
+		87ACD2142B0B4741009B3290 /* HMSPeerLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerLayout.swift; sourceTree = "<group>"; };
+		87ACD2152B0B4741009B3290 /* HMSScreenProminenceLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSScreenProminenceLayout.swift; sourceTree = "<group>"; };
+		87ACD2162B0B4741009B3290 /* HMSPeerProminenceLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerProminenceLayout.swift; sourceTree = "<group>"; };
+		87ACD2172B0B4741009B3290 /* HMSPeerVerticalListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerVerticalListLayout.swift; sourceTree = "<group>"; };
+		87ACD2192B0B4741009B3290 /* HMSHLSViewerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSHLSViewerScreen.swift; sourceTree = "<group>"; };
+		87ACD21A2B0B4741009B3290 /* HMSStreamNotStartedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSStreamNotStartedView.swift; sourceTree = "<group>"; };
+		87ACD21D2B0B4741009B3290 /* HMSPreviewBottomOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewBottomOverlay.swift; sourceTree = "<group>"; };
+		87ACD21E2B0B4741009B3290 /* HMSPreviewRoleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewRoleScreen.swift; sourceTree = "<group>"; };
+		87ACD21F2B0B4741009B3290 /* HMSPreviewTopOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewTopOverlay.swift; sourceTree = "<group>"; };
+		87ACD2202B0B4741009B3290 /* HMSPreviewRoleBottomOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewRoleBottomOverlay.swift; sourceTree = "<group>"; };
+		87ACD2212B0B4741009B3290 /* PreviewEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewEnvironment.swift; sourceTree = "<group>"; };
+		87ACD2222B0B4741009B3290 /* HMSPreviewScreenLiveStreaming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewScreenLiveStreaming.swift; sourceTree = "<group>"; };
+		87ACD2232B0B4741009B3290 /* HMSPermissionDenialScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPermissionDenialScreen.swift; sourceTree = "<group>"; };
+		87ACD2252B0B4741009B3290 /* HMSPreviewScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPreviewScreen.swift; sourceTree = "<group>"; };
+		87ACD2262B0B4741009B3290 /* PreviewComponentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewComponentType.swift; sourceTree = "<group>"; };
+		87ACD2272B0B4741009B3290 /* HMSInsetPeerTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSInsetPeerTile.swift; sourceTree = "<group>"; };
+		87ACD2282B0B4741009B3290 /* HMSParticipantsPreviewLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSParticipantsPreviewLabel.swift; sourceTree = "<group>"; };
+		87ACD22A2B0B4741009B3290 /* HMSEndCallScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSEndCallScreen.swift; sourceTree = "<group>"; };
+		87ACD22C2B0B4741009B3290 /* HMSUIFontTheme-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSUIFontTheme-extension.swift"; sourceTree = "<group>"; };
+		87ACD22E2B0B4741009B3290 /* HMSUITheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSUITheme.swift; sourceTree = "<group>"; };
+		87ACD22F2B0B4741009B3290 /* HMSUIColorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSUIColorTheme.swift; sourceTree = "<group>"; };
+		87ACD2302B0B4741009B3290 /* HMSUIFontTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSUIFontTheme.swift; sourceTree = "<group>"; };
+		87ACD2312B0B4741009B3290 /* HMSThemeModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSThemeModifiers.swift; sourceTree = "<group>"; };
+		87ACD2322B0B4741009B3290 /* HMSUIColorTheme-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSUIColorTheme-extension.swift"; sourceTree = "<group>"; };
+		87ACD2332B0B4741009B3290 /* HMSRoomKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HMSRoomKit.docc; sourceTree = "<group>"; };
+		87ACD2E32B0B474E009B3290 /* HMSPeerModel-Higher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Higher.swift"; sourceTree = "<group>"; };
+		87ACD2E42B0B474E009B3290 /* HMSPeerModel-Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Base.swift"; sourceTree = "<group>"; };
+		87ACD2E52B0B474E009B3290 /* HMSPeerModel-Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Preview.swift"; sourceTree = "<group>"; };
+		87ACD2E62B0B474E009B3290 /* HMSPeerModel-Internal-updates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Internal-updates.swift"; sourceTree = "<group>"; };
+		87ACD2E72B0B474E009B3290 /* HMSPeerModel-Base-Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Base-Actions.swift"; sourceTree = "<group>"; };
+		87ACD2E82B0B474E009B3290 /* HMSPeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerModel.swift; sourceTree = "<group>"; };
+		87ACD2E92B0B474F009B3290 /* HMSChatModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSChatModels.swift; sourceTree = "<group>"; };
+		87ACD2EA2B0B474F009B3290 /* HMSVideoViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSVideoViewRepresentable.swift; sourceTree = "<group>"; };
+		87ACD2EB2B0B474F009B3290 /* HMSPeerListIteratorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPeerListIteratorModel.swift; sourceTree = "<group>"; };
+		87ACD2EC2B0B474F009B3290 /* HMSRoomModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomModels.swift; sourceTree = "<group>"; };
+		87ACD2ED2B0B474F009B3290 /* HMSRoomOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomOptions.swift; sourceTree = "<group>"; };
+		87ACD2EF2B0B474F009B3290 /* HMSTrackModel-Base-Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSTrackModel-Base-Actions.swift"; sourceTree = "<group>"; };
+		87ACD2F02B0B474F009B3290 /* HMSTrackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSTrackModel.swift; sourceTree = "<group>"; };
+		87ACD2F22B0B474F009B3290 /* HMSRoomModel-Higher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Higher.swift"; sourceTree = "<group>"; };
+		87ACD2F32B0B474F009B3290 /* HMSRoomModel-Base-Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Base-Actions.swift"; sourceTree = "<group>"; };
+		87ACD2F42B0B474F009B3290 /* HMSRoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSRoomModel.swift; sourceTree = "<group>"; };
+		87ACD2F52B0B474F009B3290 /* HMSRoomModel-Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Base.swift"; sourceTree = "<group>"; };
+		87ACD2F62B0B474F009B3290 /* HMSRoomModel-Internal-updates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Internal-updates.swift"; sourceTree = "<group>"; };
+		87ACD2F72B0B474F009B3290 /* HMSRoomModel-Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Preview.swift"; sourceTree = "<group>"; };
+		87ACD2F82B0B474F009B3290 /* HMSRoomModel-Internal-Callbacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Internal-Callbacks.swift"; sourceTree = "<group>"; };
+		87ACD2F92B0B474F009B3290 /* SessionMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionMetadata.swift; sourceTree = "<group>"; };
+		87ACD2FA2B0B474F009B3290 /* PeerMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerMetadata.swift; sourceTree = "<group>"; };
+		87ACD2FB2B0B474F009B3290 /* HMSHLSPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSHLSPlayerView.swift; sourceTree = "<group>"; };
 		87B1D4162AB81FD8001EBFA7 /* DevelopmentPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopmentPlayground.swift; sourceTree = "<group>"; };
 		87F2FEAA2ABD75FB00FB62C2 /* RoomStatesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStatesExample.swift; sourceTree = "<group>"; };
 		87FC805C2AD95990001DAED9 /* RoomModelStandaloneExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModelStandaloneExample.swift; sourceTree = "<group>"; };
@@ -117,6 +510,8 @@
 		875F3A552AB19E7300904307 = {
 			isa = PBXGroup;
 			children = (
+				87ACD2E12B0B474E009B3290 /* HMSRoomModels */,
+				87ACD15F2B0B4741009B3290 /* HMSRoomKit */,
 				875F3A602AB19E7300904307 /* HMSRoomKitDevelopment */,
 				875F3BBE2AB1A2CA00904307 /* HMSRoomKitPreview */,
 				875F40CD2AB1AA4D00904307 /* Screenshare */,
@@ -203,6 +598,547 @@
 				87FC805C2AD95990001DAED9 /* RoomModelStandaloneExample.swift */,
 			);
 			path = "Custom Meeting Examples";
+			sourceTree = "<group>";
+		};
+		87ACD15F2B0B4741009B3290 /* HMSRoomKit */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1602B0B4741009B3290 /* Media.xcassets */,
+				87ACD1612B0B4741009B3290 /* HMSRoomKit.h */,
+				87ACD1622B0B4741009B3290 /* HMSRoomKit.swift */,
+				87ACD1632B0B4741009B3290 /* Utilities - Internal */,
+				87ACD16A2B0B4741009B3290 /* Prebuilt */,
+				87ACD1752B0B4741009B3290 /* UI Views - Internal */,
+				87ACD1982B0B4741009B3290 /* audio-level-white.json */,
+				87ACD1992B0B4741009B3290 /* UIComponents - Internal */,
+				87ACD1E12B0B4741009B3290 /* UIComponents */,
+				87ACD22B2B0B4741009B3290 /* Theme */,
+				87ACD2332B0B4741009B3290 /* HMSRoomKit.docc */,
+			);
+			name = HMSRoomKit;
+			path = "../../100ms-roomkit-ios/Sources/HMSRoomKit";
+			sourceTree = "<group>";
+		};
+		87ACD1632B0B4741009B3290 /* Utilities - Internal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1642B0B4741009B3290 /* HMSTallVGridView.swift */,
+				87ACD1652B0B4741009B3290 /* HMSHalfSheet.swift */,
+				87ACD1662B0B4741009B3290 /* ArrayExtension.swift */,
+				87ACD1672B0B4741009B3290 /* ImageExtension.swift */,
+				87ACD1682B0B4741009B3290 /* HMSDivider.swift */,
+				87ACD1692B0B4741009B3290 /* HMSAsyncImage.swift */,
+			);
+			path = "Utilities - Internal";
+			sourceTree = "<group>";
+		};
+		87ACD16A2B0B4741009B3290 /* Prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD16B2B0B4741009B3290 /* Internal */,
+				87ACD1722B0B4741009B3290 /* Public */,
+			);
+			path = Prebuilt;
+			sourceTree = "<group>";
+		};
+		87ACD16B2B0B4741009B3290 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD16C2B0B4741009B3290 /* Environment.swift */,
+				87ACD16D2B0B4741009B3290 /* HMSPrebuiltConferenceView.swift */,
+				87ACD16E2B0B4741009B3290 /* HMSRoomInfoModel.swift */,
+				87ACD16F2B0B4741009B3290 /* HMSPrebuiltMeetingView.swift */,
+				87ACD1702B0B4741009B3290 /* HMSLoadingScreen.swift */,
+				87ACD1712B0B4741009B3290 /* HMSRoomKitPollModel.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		87ACD1722B0B4741009B3290 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1732B0B4741009B3290 /* HMSPrebuiltView.swift */,
+				87ACD1742B0B4741009B3290 /* HMSPrebuiltOptions.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		87ACD1752B0B4741009B3290 /* UI Views - Internal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1762B0B4741009B3290 /* HMSVideoTrackView.swift */,
+				87ACD1772B0B4741009B3290 /* HMSJoinLabelView.swift */,
+				87ACD1782B0B4741009B3290 /* ErrorWarningAlertView.swift */,
+				87ACD1792B0B4741009B3290 /* HMSLiveLabel.swift */,
+				87ACD17A2B0B4741009B3290 /* Controls */,
+				87ACD1912B0B4741009B3290 /* HMSParticipantNameLabelView.swift */,
+				87ACD1922B0B4741009B3290 /* HMSPreviewParticipantsLabelView.swift */,
+				87ACD1932B0B4741009B3290 /* HMSAudioLevelsView.swift */,
+				87ACD1942B0B4741009B3290 /* HMSJoinNameView.swift */,
+				87ACD1952B0B4741009B3290 /* HMSLocalScreenShareView.swift */,
+				87ACD1962B0B4741009B3290 /* HMSAudioTrackView.swift */,
+				87ACD1972B0B4741009B3290 /* HMSParticipantScreenNameLabelView.swift */,
+			);
+			path = "UI Views - Internal";
+			sourceTree = "<group>";
+		};
+		87ACD17A2B0B4741009B3290 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD17B2B0B4741009B3290 /* HMSXMarkCircleView.swift */,
+				87ACD17C2B0B4741009B3290 /* HMSExpandIconView.swift */,
+				87ACD17D2B0B4741009B3290 /* HMSOptionsToggleView.swift */,
+				87ACD17E2B0B4741009B3290 /* HMSChatToggleView.swift */,
+				87ACD17F2B0B4741009B3290 /* HMSCameraToggleView.swift */,
+				87ACD1802B0B4741009B3290 /* HMSSpeakerButtonView.swift */,
+				87ACD1812B0B4741009B3290 /* HMSHandRaisedIconView.swift */,
+				87ACD1822B0B4741009B3290 /* HMSEmojiToggleView.swift */,
+				87ACD1832B0B4741009B3290 /* HMSMicToggleView.swift */,
+				87ACD1842B0B4741009B3290 /* HMSBRBIconView.swift */,
+				87ACD1852B0B4741009B3290 /* HMSScreenToggleView.swift */,
+				87ACD1862B0B4741009B3290 /* HMSGearButtonView.swift */,
+				87ACD1872B0B4741009B3290 /* HMSEndCallButtonView.swift */,
+				87ACD1882B0B4741009B3290 /* HMSBackButtonView.swift */,
+				87ACD1892B0B4741009B3290 /* Wifi Signal */,
+				87ACD1902B0B4741009B3290 /* HMSSwitchCameraButtonView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		87ACD1892B0B4741009B3290 /* Wifi Signal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD18A2B0B4741009B3290 /* HMSWifiSignalView0.swift */,
+				87ACD18B2B0B4741009B3290 /* HMSWifiSignalView.swift */,
+				87ACD18C2B0B4741009B3290 /* HMSWifiSignalView2.swift */,
+				87ACD18D2B0B4741009B3290 /* HMSWifiSignalView4.swift */,
+				87ACD18E2B0B4741009B3290 /* HMSWifiSignalView3.swift */,
+				87ACD18F2B0B4741009B3290 /* HMSWifiSignalView1.swift */,
+			);
+			path = "Wifi Signal";
+			sourceTree = "<group>";
+		};
+		87ACD1992B0B4741009B3290 /* UIComponents - Internal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD19A2B0B4741009B3290 /* HMSStreamingStatusView.swift */,
+				87ACD19B2B0B4741009B3290 /* HMSSegmentedControl.swift */,
+				87ACD19C2B0B4741009B3290 /* HMSHandRaisedToggleView.swift */,
+				87ACD19D2B0B4741009B3290 /* HMSCompanyLogoView.swift */,
+				87ACD19E2B0B4741009B3290 /* HMSCameraToggle.swift */,
+				87ACD19F2B0B4741009B3290 /* HMSJoinNameLabel.swift */,
+				87ACD1A02B0B4741009B3290 /* HMSDeviceSettingsSheetView.swift */,
+				87ACD1A12B0B4741009B3290 /* HMSPeerVideoMuteOptionView.swift */,
+				87ACD1A22B0B4741009B3290 /* Polls */,
+				87ACD1C22B0B4741009B3290 /* HMSShareScreenButton.swift */,
+				87ACD1C32B0B4741009B3290 /* HMSPeerOptionsView.swift */,
+				87ACD1C42B0B4741009B3290 /* HMSMicToggle.swift */,
+				87ACD1C52B0B4741009B3290 /* HMSMessageOptionsView.swift */,
+				87ACD1C62B0B4741009B3290 /* HMSParticipantNameLabel.swift */,
+				87ACD1C72B0B4741009B3290 /* HMSPeerAudioMuteOptionView.swift */,
+				87ACD1C82B0B4741009B3290 /* HMSParticipantScreenNameLabel.swift */,
+				87ACD1C92B0B4741009B3290 /* HMSScreenShareButton.swift */,
+				87ACD1CA2B0B4741009B3290 /* HMSPeerVolumeOptionView.swift */,
+				87ACD1CB2B0B4741009B3290 /* HMSOptionSheetView.swift */,
+				87ACD1CC2B0B4741009B3290 /* HMSSwitchCameraButton.swift */,
+				87ACD1CD2B0B4741009B3290 /* HMSJoinButton.swift */,
+				87ACD1CE2B0B4741009B3290 /* HMSChatAvatarView.swift */,
+				87ACD1CF2B0B4741009B3290 /* HMSScreenShareView.swift */,
+				87ACD1D02B0B4741009B3290 /* HMSPreviewNameLabel.swift */,
+				87ACD1D12B0B4741009B3290 /* HMSAirplayButton.swift */,
+				87ACD1D22B0B4741009B3290 /* HMSCancelButton.swift */,
+				87ACD1D32B0B4741009B3290 /* HMSNewMessagesButton.swift */,
+				87ACD1D42B0B4741009B3290 /* End Call */,
+				87ACD1DC2B0B4741009B3290 /* HMSChangeNameView.swift */,
+				87ACD1DD2B0B4741009B3290 /* HMSStopRecordingView.swift */,
+				87ACD1DE2B0B4741009B3290 /* HMSParticipantCountStatusView.swift */,
+				87ACD1DF2B0B4741009B3290 /* HMSRecordingStatusView.swift */,
+				87ACD1E02B0B4741009B3290 /* HMSDefaultTileView.swift */,
+			);
+			path = "UIComponents - Internal";
+			sourceTree = "<group>";
+		};
+		87ACD1A22B0B4741009B3290 /* Polls */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1A32B0B4741009B3290 /* Poll Create */,
+				87ACD1AE2B0B4741009B3290 /* UI Themes */,
+				87ACD1AF2B0B4741009B3290 /* UI Components */,
+				87ACD1B72B0B4741009B3290 /* Vote And Results */,
+			);
+			path = Polls;
+			sourceTree = "<group>";
+		};
+		87ACD1A32B0B4741009B3290 /* Poll Create */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1A42B0B4741009B3290 /* PollCreateViewModel.swift */,
+				87ACD1A52B0B4741009B3290 /* PollListEntryView.swift */,
+				87ACD1A62B0B4741009B3290 /* Questions Create */,
+				87ACD1AD2B0B4741009B3290 /* PollCreateView.swift */,
+			);
+			path = "Poll Create";
+			sourceTree = "<group>";
+		};
+		87ACD1A62B0B4741009B3290 /* Questions Create */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1A72B0B4741009B3290 /* PollOptionView.swift */,
+				87ACD1A82B0B4741009B3290 /* PollQuestionsCreateView.swift */,
+				87ACD1A92B0B4741009B3290 /* PollQuestionsView.swift */,
+				87ACD1AA2B0B4741009B3290 /* QuestionCreateViewModel.swift */,
+				87ACD1AB2B0B4741009B3290 /* QuestionOptionCreateModel.swift */,
+				87ACD1AC2B0B4741009B3290 /* QuestionCreateModel.swift */,
+			);
+			path = "Questions Create";
+			sourceTree = "<group>";
+		};
+		87ACD1AE2B0B4741009B3290 /* UI Themes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI Themes";
+			sourceTree = "<group>";
+		};
+		87ACD1AF2B0B4741009B3290 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1B02B0B4741009B3290 /* PickerField.swift */,
+				87ACD1B12B0B4741009B3290 /* PollStateBadgeView.swift */,
+				87ACD1B22B0B4741009B3290 /* PollTypeButton.swift */,
+				87ACD1B32B0B4741009B3290 /* PollStyles.swift */,
+				87ACD1B42B0B4741009B3290 /* PollDivider.swift */,
+				87ACD1B52B0B4741009B3290 /* SwitchView.swift */,
+				87ACD1B62B0B4741009B3290 /* PollTextField.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		87ACD1B72B0B4741009B3290 /* Vote And Results */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1B82B0B4741009B3290 /* PollVoteQuestionOptionViewModel.swift */,
+				87ACD1B92B0B4741009B3290 /* PollVoteQuestionOptionView.swift */,
+				87ACD1BA2B0B4741009B3290 /* QuizVoteQuestionOptionView.swift */,
+				87ACD1BB2B0B4741009B3290 /* PollVoteView.swift */,
+				87ACD1BC2B0B4741009B3290 /* PollVoteQuestionViewModel.swift */,
+				87ACD1BD2B0B4741009B3290 /* PollVoteViewModel.swift */,
+				87ACD1BE2B0B4741009B3290 /* PollVoteQuestionView.swift */,
+				87ACD1BF2B0B4741009B3290 /* Summary */,
+			);
+			path = "Vote And Results";
+			sourceTree = "<group>";
+		};
+		87ACD1BF2B0B4741009B3290 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1C02B0B4741009B3290 /* PollSummaryViewModel.swift */,
+				87ACD1C12B0B4741009B3290 /* PollSummaryView.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		87ACD1D42B0B4741009B3290 /* End Call */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1D52B0B4741009B3290 /* HMSEndCallButton.swift */,
+				87ACD1D62B0B4741009B3290 /* EndSessionAlertView.swift */,
+				87ACD1D72B0B4741009B3290 /* HMSEndCallView.swift */,
+				87ACD1D82B0B4741009B3290 /* HMSEndCallOptionPopover.swift */,
+				87ACD1D92B0B4741009B3290 /* HMSLeaveCallView.swift */,
+				87ACD1DA2B0B4741009B3290 /* EndSessionOptionView.swift */,
+				87ACD1DB2B0B4741009B3290 /* HMSLeaveCallOptionsView.swift */,
+			);
+			path = "End Call";
+			sourceTree = "<group>";
+		};
+		87ACD1E12B0B4741009B3290 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1E22B0B4741009B3290 /* HMSScreenSharePaginatedView.swift */,
+				87ACD1E32B0B4741009B3290 /* HMSPreviewTile.swift */,
+				87ACD1E42B0B4741009B3290 /* Chat */,
+				87ACD1F52B0B4741009B3290 /* HMSPeerScreenTile.swift */,
+				87ACD1F62B0B4741009B3290 /* Peer Tile */,
+				87ACD1F92B0B4741009B3290 /* Conferencing */,
+				87ACD2182B0B4741009B3290 /* HLS */,
+				87ACD21A2B0B4741009B3290 /* HMSStreamNotStartedView.swift */,
+				87ACD21B2B0B4741009B3290 /* Preview */,
+				87ACD2272B0B4741009B3290 /* HMSInsetPeerTile.swift */,
+				87ACD2282B0B4741009B3290 /* HMSParticipantsPreviewLabel.swift */,
+				87ACD2292B0B4741009B3290 /* Leave */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		87ACD1E42B0B4741009B3290 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1E52B0B4741009B3290 /* HMSChatParticipantToggleView.swift */,
+				87ACD1E62B0B4741009B3290 /* Transparent Chat */,
+				87ACD1E92B0B4741009B3290 /* UI components */,
+				87ACD1EE2B0B4741009B3290 /* Sheet chat */,
+				87ACD1F12B0B4741009B3290 /* Components */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		87ACD1E62B0B4741009B3290 /* Transparent Chat */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1E72B0B4741009B3290 /* HMSBottomChatStrip.swift */,
+				87ACD1E82B0B4741009B3290 /* HMSTransparentChatScreen.swift */,
+			);
+			path = "Transparent Chat";
+			sourceTree = "<group>";
+		};
+		87ACD1E92B0B4741009B3290 /* UI components */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1EA2B0B4741009B3290 /* HMSChatPlaceholderView.swift */,
+				87ACD1EB2B0B4741009B3290 /* HMSRolePickerOptions.swift */,
+				87ACD1EC2B0B4741009B3290 /* HMSPinnedChatMessageView.swift */,
+				87ACD1ED2B0B4741009B3290 /* HMSRolePicker.swift */,
+			);
+			path = "UI components";
+			sourceTree = "<group>";
+		};
+		87ACD1EE2B0B4741009B3290 /* Sheet chat */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1EF2B0B4741009B3290 /* HMSChatScreen.swift */,
+				87ACD1F02B0B4741009B3290 /* HMSParticipantListView.swift */,
+			);
+			path = "Sheet chat";
+			sourceTree = "<group>";
+		};
+		87ACD1F12B0B4741009B3290 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1F22B0B4741009B3290 /* HMSChatListView.swift */,
+				87ACD1F32B0B4741009B3290 /* HMSChatMessageView.swift */,
+				87ACD1F42B0B4741009B3290 /* HMSSenHMSSendChatField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		87ACD1F62B0B4741009B3290 /* Peer Tile */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1F72B0B4741009B3290 /* HMSPeerTile.swift */,
+				87ACD1F82B0B4741009B3290 /* PeerTileEnvironment.swift */,
+			);
+			path = "Peer Tile";
+			sourceTree = "<group>";
+		};
+		87ACD1F92B0B4741009B3290 /* Conferencing */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1FA2B0B4741009B3290 /* Internal */,
+				87ACD2012B0B4741009B3290 /* Models */,
+				87ACD2052B0B4741009B3290 /* Public */,
+				87ACD2082B0B4741009B3290 /* Toast Notifications */,
+				87ACD20E2B0B4741009B3290 /* Inset */,
+				87ACD2112B0B4741009B3290 /* Peer layouts */,
+			);
+			path = Conferencing;
+			sourceTree = "<group>";
+		};
+		87ACD1FA2B0B4741009B3290 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD1FB2B0B4741009B3290 /* HMSBottomControlStrip.swift */,
+				87ACD1FC2B0B4741009B3290 /* HMSChatOverlay.swift */,
+				87ACD1FD2B0B4741009B3290 /* HMSMainConferenceView.swift */,
+				87ACD1FE2B0B4741009B3290 /* HMSDefaultConferenceScreen.swift */,
+				87ACD1FF2B0B4741009B3290 /* HMSTopControlStrip.swift */,
+				87ACD2002B0B4741009B3290 /* ConferenceEnvironment.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		87ACD2012B0B4741009B3290 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2022B0B4741009B3290 /* PeerModelExtension.swift */,
+				87ACD2032B0B4741009B3290 /* RoomModelExtension.swift */,
+				87ACD2042B0B4741009B3290 /* HMSRoomKitModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		87ACD2052B0B4741009B3290 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2062B0B4741009B3290 /* HMSConferenceScreen.swift */,
+				87ACD2072B0B4741009B3290 /* ConferencingComponentType.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		87ACD2082B0B4741009B3290 /* Toast Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2092B0B4741009B3290 /* HMSNotificationStackView.swift */,
+				87ACD20A2B0B4741009B3290 /* Notification Model */,
+				87ACD20D2B0B4741009B3290 /* HMSNotificationView.swift */,
+			);
+			path = "Toast Notifications";
+			sourceTree = "<group>";
+		};
+		87ACD20A2B0B4741009B3290 /* Notification Model */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD20B2B0B4741009B3290 /* HMSRoomKitNotification-Actions.swift */,
+				87ACD20C2B0B4741009B3290 /* HMSRoomKitNotification.swift */,
+			);
+			path = "Notification Model";
+			sourceTree = "<group>";
+		};
+		87ACD20E2B0B4741009B3290 /* Inset */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD20F2B0B4741009B3290 /* HMSMinimizedTile.swift */,
+				87ACD2102B0B4741009B3290 /* HMSInsetView.swift */,
+			);
+			path = Inset;
+			sourceTree = "<group>";
+		};
+		87ACD2112B0B4741009B3290 /* Peer layouts */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2122B0B4741009B3290 /* HMSPeerGridLayout.swift */,
+				87ACD2132B0B4741009B3290 /* HMSPaginatedBottomTilesView.swift */,
+				87ACD2142B0B4741009B3290 /* HMSPeerLayout.swift */,
+				87ACD2152B0B4741009B3290 /* HMSScreenProminenceLayout.swift */,
+				87ACD2162B0B4741009B3290 /* HMSPeerProminenceLayout.swift */,
+				87ACD2172B0B4741009B3290 /* HMSPeerVerticalListLayout.swift */,
+			);
+			path = "Peer layouts";
+			sourceTree = "<group>";
+		};
+		87ACD2182B0B4741009B3290 /* HLS */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2192B0B4741009B3290 /* HMSHLSViewerScreen.swift */,
+			);
+			path = HLS;
+			sourceTree = "<group>";
+		};
+		87ACD21B2B0B4741009B3290 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD21C2B0B4741009B3290 /* Internal */,
+				87ACD2242B0B4741009B3290 /* Public */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		87ACD21C2B0B4741009B3290 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD21D2B0B4741009B3290 /* HMSPreviewBottomOverlay.swift */,
+				87ACD21E2B0B4741009B3290 /* HMSPreviewRoleScreen.swift */,
+				87ACD21F2B0B4741009B3290 /* HMSPreviewTopOverlay.swift */,
+				87ACD2202B0B4741009B3290 /* HMSPreviewRoleBottomOverlay.swift */,
+				87ACD2212B0B4741009B3290 /* PreviewEnvironment.swift */,
+				87ACD2222B0B4741009B3290 /* HMSPreviewScreenLiveStreaming.swift */,
+				87ACD2232B0B4741009B3290 /* HMSPermissionDenialScreen.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		87ACD2242B0B4741009B3290 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2252B0B4741009B3290 /* HMSPreviewScreen.swift */,
+				87ACD2262B0B4741009B3290 /* PreviewComponentType.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		87ACD2292B0B4741009B3290 /* Leave */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD22A2B0B4741009B3290 /* HMSEndCallScreen.swift */,
+			);
+			path = Leave;
+			sourceTree = "<group>";
+		};
+		87ACD22B2B0B4741009B3290 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD22C2B0B4741009B3290 /* HMSUIFontTheme-extension.swift */,
+				87ACD22D2B0B4741009B3290 /* Public */,
+				87ACD2312B0B4741009B3290 /* HMSThemeModifiers.swift */,
+				87ACD2322B0B4741009B3290 /* HMSUIColorTheme-extension.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		87ACD22D2B0B4741009B3290 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD22E2B0B4741009B3290 /* HMSUITheme.swift */,
+				87ACD22F2B0B4741009B3290 /* HMSUIColorTheme.swift */,
+				87ACD2302B0B4741009B3290 /* HMSUIFontTheme.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		87ACD2E12B0B474E009B3290 /* HMSRoomModels */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2E22B0B474E009B3290 /* PeerModel */,
+				87ACD2E92B0B474F009B3290 /* HMSChatModels.swift */,
+				87ACD2EA2B0B474F009B3290 /* HMSVideoViewRepresentable.swift */,
+				87ACD2EB2B0B474F009B3290 /* HMSPeerListIteratorModel.swift */,
+				87ACD2EC2B0B474F009B3290 /* HMSRoomModels.swift */,
+				87ACD2ED2B0B474F009B3290 /* HMSRoomOptions.swift */,
+				87ACD2EE2B0B474F009B3290 /* TrackModel */,
+				87ACD2F12B0B474F009B3290 /* RoomModel */,
+				87ACD2F92B0B474F009B3290 /* SessionMetadata.swift */,
+				87ACD2FA2B0B474F009B3290 /* PeerMetadata.swift */,
+				87ACD2FB2B0B474F009B3290 /* HMSHLSPlayerView.swift */,
+			);
+			name = HMSRoomModels;
+			path = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels";
+			sourceTree = "<group>";
+		};
+		87ACD2E22B0B474E009B3290 /* PeerModel */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2E32B0B474E009B3290 /* HMSPeerModel-Higher.swift */,
+				87ACD2E42B0B474E009B3290 /* HMSPeerModel-Base.swift */,
+				87ACD2E52B0B474E009B3290 /* HMSPeerModel-Preview.swift */,
+				87ACD2E62B0B474E009B3290 /* HMSPeerModel-Internal-updates.swift */,
+				87ACD2E72B0B474E009B3290 /* HMSPeerModel-Base-Actions.swift */,
+				87ACD2E82B0B474E009B3290 /* HMSPeerModel.swift */,
+			);
+			path = PeerModel;
+			sourceTree = "<group>";
+		};
+		87ACD2EE2B0B474F009B3290 /* TrackModel */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2EF2B0B474F009B3290 /* HMSTrackModel-Base-Actions.swift */,
+				87ACD2F02B0B474F009B3290 /* HMSTrackModel.swift */,
+			);
+			path = TrackModel;
+			sourceTree = "<group>";
+		};
+		87ACD2F12B0B474F009B3290 /* RoomModel */ = {
+			isa = PBXGroup;
+			children = (
+				87ACD2F22B0B474F009B3290 /* HMSRoomModel-Higher.swift */,
+				87ACD2F32B0B474F009B3290 /* HMSRoomModel-Base-Actions.swift */,
+				87ACD2F42B0B474F009B3290 /* HMSRoomModel.swift */,
+				87ACD2F52B0B474F009B3290 /* HMSRoomModel-Base.swift */,
+				87ACD2F62B0B474F009B3290 /* HMSRoomModel-Internal-updates.swift */,
+				87ACD2F72B0B474F009B3290 /* HMSRoomModel-Preview.swift */,
+				87ACD2F82B0B474F009B3290 /* HMSRoomModel-Internal-Callbacks.swift */,
+			);
+			path = RoomModel;
 			sourceTree = "<group>";
 		};
 		87F2FEAC2ABD7E3500FB62C2 /* Development Playground */ = {
@@ -344,7 +1280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				875F3BC72AB1A2CB00904307 /* Preview Assets.xcassets in Resources */,
+				87ACD2342B0B4741009B3290 /* Media.xcassets in Resources */,
 				875F3BC42AB1A2CB00904307 /* Assets.xcassets in Resources */,
+				87ACD2642B0B4741009B3290 /* audio-level-white.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +1314,201 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ACD2552B0B4741009B3290 /* HMSBackButtonView.swift in Sources */,
+				87ACD27B2B0B4741009B3290 /* SwitchView.swift in Sources */,
+				87ACD2702B0B4741009B3290 /* PollQuestionsCreateView.swift in Sources */,
+				87ACD2952B0B4741009B3290 /* HMSAirplayButton.swift in Sources */,
+				87ACD2C52B0B4741009B3290 /* HMSInsetView.swift in Sources */,
+				87ACD2492B0B4741009B3290 /* HMSExpandIconView.swift in Sources */,
+				87ACD2A62B0B4741009B3290 /* HMSChatParticipantToggleView.swift in Sources */,
+				87ACD26E2B0B4741009B3290 /* PollListEntryView.swift in Sources */,
+				87ACD2B62B0B4741009B3290 /* HMSChatOverlay.swift in Sources */,
+				87ACD2782B0B4741009B3290 /* PollTypeButton.swift in Sources */,
+				87ACD27C2B0B4741009B3290 /* PollTextField.swift in Sources */,
+				87ACD2912B0B4741009B3290 /* HMSJoinButton.swift in Sources */,
+				87ACD3112B0B474F009B3290 /* PeerMetadata.swift in Sources */,
+				87ACD2672B0B4741009B3290 /* HMSHandRaisedToggleView.swift in Sources */,
+				87ACD2862B0B4741009B3290 /* HMSShareScreenButton.swift in Sources */,
+				87ACD3072B0B474F009B3290 /* HMSTrackModel-Base-Actions.swift in Sources */,
+				87ACD2622B0B4741009B3290 /* HMSAudioTrackView.swift in Sources */,
+				87ACD2CF2B0B4742009B3290 /* HMSPreviewRoleScreen.swift in Sources */,
+				87ACD2BE2B0B4741009B3290 /* HMSConferenceScreen.swift in Sources */,
+				87ACD2382B0B4741009B3290 /* ArrayExtension.swift in Sources */,
+				87ACD28B2B0B4741009B3290 /* HMSPeerAudioMuteOptionView.swift in Sources */,
+				87ACD29E2B0B4741009B3290 /* HMSLeaveCallOptionsView.swift in Sources */,
+				87ACD2962B0B4741009B3290 /* HMSCancelButton.swift in Sources */,
+				87ACD2B52B0B4741009B3290 /* HMSBottomControlStrip.swift in Sources */,
+				87ACD2462B0B4741009B3290 /* ErrorWarningAlertView.swift in Sources */,
+				87ACD2B82B0B4741009B3290 /* HMSDefaultConferenceScreen.swift in Sources */,
+				87ACD2662B0B4741009B3290 /* HMSSegmentedControl.swift in Sources */,
+				87ACD25B2B0B4741009B3290 /* HMSWifiSignalView1.swift in Sources */,
+				87ACD2512B0B4741009B3290 /* HMSBRBIconView.swift in Sources */,
+				87ACD2CD2B0B4742009B3290 /* HMSStreamNotStartedView.swift in Sources */,
+				87ACD2602B0B4741009B3290 /* HMSJoinNameView.swift in Sources */,
+				87ACD25C2B0B4741009B3290 /* HMSSwitchCameraButtonView.swift in Sources */,
+				87ACD2A82B0B4741009B3290 /* HMSTransparentChatScreen.swift in Sources */,
+				87ACD2FD2B0B474F009B3290 /* HMSPeerModel-Base.swift in Sources */,
+				87ACD2392B0B4741009B3290 /* ImageExtension.swift in Sources */,
+				87ACD2C02B0B4741009B3290 /* HMSNotificationStackView.swift in Sources */,
+				87ACD2722B0B4741009B3290 /* QuestionCreateViewModel.swift in Sources */,
+				87ACD24A2B0B4741009B3290 /* HMSOptionsToggleView.swift in Sources */,
+				87ACD3062B0B474F009B3290 /* HMSRoomOptions.swift in Sources */,
+				87ACD2362B0B4741009B3290 /* HMSTallVGridView.swift in Sources */,
+				87ACD28C2B0B4741009B3290 /* HMSParticipantScreenNameLabel.swift in Sources */,
+				87ACD2C32B0B4741009B3290 /* HMSNotificationView.swift in Sources */,
+				87ACD2B72B0B4741009B3290 /* HMSMainConferenceView.swift in Sources */,
+				87ACD2CB2B0B4741009B3290 /* HMSPeerVerticalListLayout.swift in Sources */,
+				87ACD2742B0B4741009B3290 /* QuestionCreateModel.swift in Sources */,
+				87ACD2972B0B4741009B3290 /* HMSNewMessagesButton.swift in Sources */,
+				87ACD2762B0B4741009B3290 /* PickerField.swift in Sources */,
+				87ACD2902B0B4741009B3290 /* HMSSwitchCameraButton.swift in Sources */,
+				87ACD2842B0B4741009B3290 /* PollSummaryViewModel.swift in Sources */,
+				87ACD2992B0B4741009B3290 /* EndSessionAlertView.swift in Sources */,
+				87ACD2B42B0B4741009B3290 /* PeerTileEnvironment.swift in Sources */,
+				87ACD30C2B0B474F009B3290 /* HMSRoomModel-Base.swift in Sources */,
+				87ACD26A2B0B4741009B3290 /* HMSJoinNameLabel.swift in Sources */,
+				87ACD2D52B0B4742009B3290 /* HMSPreviewScreen.swift in Sources */,
+				87ACD2372B0B4741009B3290 /* HMSHalfSheet.swift in Sources */,
+				87ACD2592B0B4741009B3290 /* HMSWifiSignalView4.swift in Sources */,
+				87ACD2BB2B0B4741009B3290 /* PeerModelExtension.swift in Sources */,
+				87ACD2732B0B4741009B3290 /* QuestionOptionCreateModel.swift in Sources */,
+				87ACD24B2B0B4741009B3290 /* HMSChatToggleView.swift in Sources */,
+				87ACD2472B0B4741009B3290 /* HMSLiveLabel.swift in Sources */,
+				87ACD2A72B0B4741009B3290 /* HMSBottomChatStrip.swift in Sources */,
+				87ACD2DB2B0B4742009B3290 /* HMSUITheme.swift in Sources */,
+				87ACD2B22B0B4741009B3290 /* HMSPeerScreenTile.swift in Sources */,
+				87ACD27E2B0B4741009B3290 /* PollVoteQuestionOptionView.swift in Sources */,
+				87ACD3122B0B474F009B3290 /* HMSHLSPlayerView.swift in Sources */,
+				87ACD2C92B0B4741009B3290 /* HMSScreenProminenceLayout.swift in Sources */,
+				87ACD3052B0B474F009B3290 /* HMSRoomModels.swift in Sources */,
+				87ACD2D12B0B4742009B3290 /* HMSPreviewRoleBottomOverlay.swift in Sources */,
+				87ACD3082B0B474F009B3290 /* HMSTrackModel.swift in Sources */,
+				87ACD2772B0B4741009B3290 /* PollStateBadgeView.swift in Sources */,
+				87ACD2D92B0B4742009B3290 /* HMSEndCallScreen.swift in Sources */,
+				87ACD2A32B0B4741009B3290 /* HMSDefaultTileView.swift in Sources */,
+				87ACD2DA2B0B4742009B3290 /* HMSUIFontTheme-extension.swift in Sources */,
+				87ACD2AA2B0B4741009B3290 /* HMSRolePickerOptions.swift in Sources */,
+				87ACD2522B0B4741009B3290 /* HMSScreenToggleView.swift in Sources */,
+				87ACD2C62B0B4741009B3290 /* HMSPeerGridLayout.swift in Sources */,
+				87ACD23E2B0B4741009B3290 /* HMSRoomInfoModel.swift in Sources */,
+				87ACD2D32B0B4742009B3290 /* HMSPreviewScreenLiveStreaming.swift in Sources */,
+				87ACD2652B0B4741009B3290 /* HMSStreamingStatusView.swift in Sources */,
+				87ACD2852B0B4741009B3290 /* PollSummaryView.swift in Sources */,
+				87ACD3022B0B474F009B3290 /* HMSChatModels.swift in Sources */,
+				87ACD29B2B0B4741009B3290 /* HMSEndCallOptionPopover.swift in Sources */,
+				87ACD2C42B0B4741009B3290 /* HMSMinimizedTile.swift in Sources */,
+				87ACD2AE2B0B4741009B3290 /* HMSParticipantListView.swift in Sources */,
+				87ACD2922B0B4741009B3290 /* HMSChatAvatarView.swift in Sources */,
+				87ACD28F2B0B4741009B3290 /* HMSOptionSheetView.swift in Sources */,
+				87ACD27D2B0B4741009B3290 /* PollVoteQuestionOptionViewModel.swift in Sources */,
+				87ACD2872B0B4741009B3290 /* HMSPeerOptionsView.swift in Sources */,
+				87ACD3102B0B474F009B3290 /* SessionMetadata.swift in Sources */,
+				87ACD2412B0B4741009B3290 /* HMSRoomKitPollModel.swift in Sources */,
+				87ACD30D2B0B474F009B3290 /* HMSRoomModel-Internal-updates.swift in Sources */,
+				87ACD25E2B0B4741009B3290 /* HMSPreviewParticipantsLabelView.swift in Sources */,
+				87ACD2542B0B4741009B3290 /* HMSEndCallButtonView.swift in Sources */,
+				87ACD2AD2B0B4741009B3290 /* HMSChatScreen.swift in Sources */,
+				87ACD23D2B0B4741009B3290 /* HMSPrebuiltConferenceView.swift in Sources */,
+				87ACD2CC2B0B4742009B3290 /* HMSHLSViewerScreen.swift in Sources */,
+				87ACD29C2B0B4741009B3290 /* HMSLeaveCallView.swift in Sources */,
+				87ACD2422B0B4741009B3290 /* HMSPrebuiltView.swift in Sources */,
+				87ACD2BF2B0B4741009B3290 /* ConferencingComponentType.swift in Sources */,
+				87ACD2DC2B0B4742009B3290 /* HMSUIColorTheme.swift in Sources */,
+				87ACD2DD2B0B4742009B3290 /* HMSUIFontTheme.swift in Sources */,
+				87ACD3092B0B474F009B3290 /* HMSRoomModel-Higher.swift in Sources */,
+				87ACD2BA2B0B4741009B3290 /* ConferenceEnvironment.swift in Sources */,
+				87ACD25A2B0B4741009B3290 /* HMSWifiSignalView3.swift in Sources */,
+				87ACD2932B0B4741009B3290 /* HMSScreenShareView.swift in Sources */,
+				87ACD23C2B0B4741009B3290 /* Environment.swift in Sources */,
+				87ACD2532B0B4741009B3290 /* HMSGearButtonView.swift in Sources */,
+				87ACD2A42B0B4741009B3290 /* HMSScreenSharePaginatedView.swift in Sources */,
+				87ACD2752B0B4741009B3290 /* PollCreateView.swift in Sources */,
+				87ACD2B92B0B4741009B3290 /* HMSTopControlStrip.swift in Sources */,
+				87ACD2A22B0B4741009B3290 /* HMSRecordingStatusView.swift in Sources */,
+				87ACD2692B0B4741009B3290 /* HMSCameraToggle.swift in Sources */,
+				87ACD2882B0B4741009B3290 /* HMSMicToggle.swift in Sources */,
+				87ACD2AC2B0B4741009B3290 /* HMSRolePicker.swift in Sources */,
+				87ACD30A2B0B474F009B3290 /* HMSRoomModel-Base-Actions.swift in Sources */,
+				87ACD2C22B0B4741009B3290 /* HMSRoomKitNotification.swift in Sources */,
+				87ACD30B2B0B474F009B3290 /* HMSRoomModel.swift in Sources */,
+				87ACD27F2B0B4741009B3290 /* QuizVoteQuestionOptionView.swift in Sources */,
+				87ACD2AB2B0B4741009B3290 /* HMSPinnedChatMessageView.swift in Sources */,
+				87ACD2982B0B4741009B3290 /* HMSEndCallButton.swift in Sources */,
+				87ACD2BD2B0B4741009B3290 /* HMSRoomKitModel.swift in Sources */,
+				87ACD3012B0B474F009B3290 /* HMSPeerModel.swift in Sources */,
+				87ACD2D22B0B4742009B3290 /* PreviewEnvironment.swift in Sources */,
+				87ACD2A52B0B4741009B3290 /* HMSPreviewTile.swift in Sources */,
+				87ACD2C72B0B4741009B3290 /* HMSPaginatedBottomTilesView.swift in Sources */,
+				87ACD2802B0B4741009B3290 /* PollVoteView.swift in Sources */,
+				87ACD2CA2B0B4741009B3290 /* HMSPeerProminenceLayout.swift in Sources */,
+				87ACD23A2B0B4741009B3290 /* HMSDivider.swift in Sources */,
+				87ACD2582B0B4741009B3290 /* HMSWifiSignalView2.swift in Sources */,
+				87ACD2B32B0B4741009B3290 /* HMSPeerTile.swift in Sources */,
+				87ACD2DE2B0B4742009B3290 /* HMSThemeModifiers.swift in Sources */,
+				87ACD2442B0B4741009B3290 /* HMSVideoTrackView.swift in Sources */,
+				87ACD28E2B0B4741009B3290 /* HMSPeerVolumeOptionView.swift in Sources */,
+				87ACD2A92B0B4741009B3290 /* HMSChatPlaceholderView.swift in Sources */,
+				87ACD2B02B0B4741009B3290 /* HMSChatMessageView.swift in Sources */,
+				87ACD2C82B0B4741009B3290 /* HMSPeerLayout.swift in Sources */,
+				87ACD26C2B0B4741009B3290 /* HMSPeerVideoMuteOptionView.swift in Sources */,
+				87ACD24F2B0B4741009B3290 /* HMSEmojiToggleView.swift in Sources */,
+				87ACD2822B0B4741009B3290 /* PollVoteViewModel.swift in Sources */,
+				87ACD2812B0B4741009B3290 /* PollVoteQuestionViewModel.swift in Sources */,
+				87ACD2352B0B4741009B3290 /* HMSRoomKit.swift in Sources */,
+				87ACD2FE2B0B474F009B3290 /* HMSPeerModel-Preview.swift in Sources */,
+				87ACD2D02B0B4742009B3290 /* HMSPreviewTopOverlay.swift in Sources */,
+				87ACD30E2B0B474F009B3290 /* HMSRoomModel-Preview.swift in Sources */,
+				87ACD2CE2B0B4742009B3290 /* HMSPreviewBottomOverlay.swift in Sources */,
+				87ACD24D2B0B4741009B3290 /* HMSSpeakerButtonView.swift in Sources */,
+				87ACD29F2B0B4741009B3290 /* HMSChangeNameView.swift in Sources */,
+				87ACD26D2B0B4741009B3290 /* PollCreateViewModel.swift in Sources */,
+				87ACD2E02B0B4742009B3290 /* HMSRoomKit.docc in Sources */,
+				87ACD2482B0B4741009B3290 /* HMSXMarkCircleView.swift in Sources */,
+				87ACD24C2B0B4741009B3290 /* HMSCameraToggleView.swift in Sources */,
+				87ACD2832B0B4741009B3290 /* PollVoteQuestionView.swift in Sources */,
+				87ACD2452B0B4741009B3290 /* HMSJoinLabelView.swift in Sources */,
+				87ACD26F2B0B4741009B3290 /* PollOptionView.swift in Sources */,
+				87ACD3002B0B474F009B3290 /* HMSPeerModel-Base-Actions.swift in Sources */,
+				87ACD2DF2B0B4742009B3290 /* HMSUIColorTheme-extension.swift in Sources */,
 				875F3BC02AB1A2CA00904307 /* HMSRoomKitPreviewApp.swift in Sources */,
+				87ACD24E2B0B4741009B3290 /* HMSHandRaisedIconView.swift in Sources */,
+				87ACD29A2B0B4741009B3290 /* HMSEndCallView.swift in Sources */,
+				87ACD2BC2B0B4741009B3290 /* RoomModelExtension.swift in Sources */,
+				87ACD2FF2B0B474F009B3290 /* HMSPeerModel-Internal-updates.swift in Sources */,
+				87ACD2632B0B4741009B3290 /* HMSParticipantScreenNameLabelView.swift in Sources */,
+				87ACD26B2B0B4741009B3290 /* HMSDeviceSettingsSheetView.swift in Sources */,
+				87ACD25F2B0B4741009B3290 /* HMSAudioLevelsView.swift in Sources */,
+				87ACD2A12B0B4741009B3290 /* HMSParticipantCountStatusView.swift in Sources */,
+				87ACD2682B0B4741009B3290 /* HMSCompanyLogoView.swift in Sources */,
+				87ACD28A2B0B4741009B3290 /* HMSParticipantNameLabel.swift in Sources */,
+				87ACD2612B0B4741009B3290 /* HMSLocalScreenShareView.swift in Sources */,
+				87ACD23F2B0B4741009B3290 /* HMSPrebuiltMeetingView.swift in Sources */,
+				87ACD2572B0B4741009B3290 /* HMSWifiSignalView.swift in Sources */,
+				87ACD2792B0B4741009B3290 /* PollStyles.swift in Sources */,
+				87ACD2B12B0B4741009B3290 /* HMSSenHMSSendChatField.swift in Sources */,
+				87ACD27A2B0B4741009B3290 /* PollDivider.swift in Sources */,
+				87ACD2892B0B4741009B3290 /* HMSMessageOptionsView.swift in Sources */,
+				87ACD23B2B0B4741009B3290 /* HMSAsyncImage.swift in Sources */,
+				87ACD2C12B0B4741009B3290 /* HMSRoomKitNotification-Actions.swift in Sources */,
+				87ACD30F2B0B474F009B3290 /* HMSRoomModel-Internal-Callbacks.swift in Sources */,
+				87ACD2432B0B4741009B3290 /* HMSPrebuiltOptions.swift in Sources */,
+				87ACD3032B0B474F009B3290 /* HMSVideoViewRepresentable.swift in Sources */,
+				87ACD2A02B0B4741009B3290 /* HMSStopRecordingView.swift in Sources */,
+				87ACD2D72B0B4742009B3290 /* HMSInsetPeerTile.swift in Sources */,
+				87ACD2402B0B4741009B3290 /* HMSLoadingScreen.swift in Sources */,
+				87ACD29D2B0B4741009B3290 /* EndSessionOptionView.swift in Sources */,
+				87ACD2FC2B0B474F009B3290 /* HMSPeerModel-Higher.swift in Sources */,
+				87ACD2D42B0B4742009B3290 /* HMSPermissionDenialScreen.swift in Sources */,
+				87ACD2562B0B4741009B3290 /* HMSWifiSignalView0.swift in Sources */,
+				87ACD2D82B0B4742009B3290 /* HMSParticipantsPreviewLabel.swift in Sources */,
+				87ACD2712B0B4741009B3290 /* PollQuestionsView.swift in Sources */,
+				87ACD28D2B0B4741009B3290 /* HMSScreenShareButton.swift in Sources */,
+				87ACD2502B0B4741009B3290 /* HMSMicToggleView.swift in Sources */,
+				87ACD3042B0B474F009B3290 /* HMSPeerListIteratorModel.swift in Sources */,
+				87ACD25D2B0B4741009B3290 /* HMSParticipantNameLabelView.swift in Sources */,
+				87ACD2942B0B4741009B3290 /* HMSPreviewNameLabel.swift in Sources */,
+				87ACD2D62B0B4742009B3290 /* PreviewComponentType.swift in Sources */,
+				87ACD2AF2B0B4741009B3290 /* HMSChatListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

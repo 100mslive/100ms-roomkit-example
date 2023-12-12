@@ -42,7 +42,6 @@ struct JoiningView: View {
                 Image("illustration")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: isFocused ? 346 * 0.7 : 346, height: isFocused ? 200 * 0.7 : 200)
                 
                 VStack(spacing: 8) {
                     Text("Experience the power of 100ms")
@@ -50,15 +49,15 @@ struct JoiningView: View {
                         .multilineTextAlignment(.center)
                         .font(heading4Semibold34)
                         .foregroundStyle(heighEmph)
-                        .scaleEffect(CGSize(width: isFocused ? 0.8 : 1.0, height: isFocused ? 0.8 : 1.0))
+                        .minimumScaleFactor(0.3)
                     
                     if !isFocused {
                         Text("Jump right in by pasting a room link, room code")
                             .fixedSize(horizontal: false, vertical: true)
                             .multilineTextAlignment(.center)
                             .foregroundStyle(mediumEmph)
+                            .minimumScaleFactor(0.3)
                     }
-                    
                 }
                 
             }

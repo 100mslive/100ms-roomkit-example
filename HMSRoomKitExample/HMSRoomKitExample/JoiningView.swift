@@ -26,8 +26,6 @@ struct JoiningView: View {
     
     @Binding var roomCode: String
     @Binding var isMeetingViewPresented: Bool
-    @Binding var userName: String
-    
     @AppStorage("roomCodeOrRoomLink") var roomCodeOrRoomLink = ""
     @FocusState var isFocused: Bool
     
@@ -112,63 +110,42 @@ struct JoiningView: View {
     }
     
     func analyseAndOpenLink(link: String) {
-        guard !link.isEmpty,
-              let url = URL(string: link.trimmingCharacters(in: .whitespacesAndNewlines)),
-              !url.lastPathComponent.isEmpty
-        else { return }
+        guard !link.isEmpty else { return }
         
-        roomCode = url.lastPathComponent
-        userName = url.userName
+        var link = link
         
-        UserDefaults.setEnvironment(url.hmsJoinLinkEnvironment)
+        link = link.trimmingCharacters(in: CharacterSet(charactersIn: "/ \\\n"))
         
-        isMeetingViewPresented.toggle()
+        var components = link.components(separatedBy: CharacterSet(charactersIn: "/"))
+        
+        if let lastComponent = components.last {
+            roomCode = lastComponent
+            
+            components.removeLast()
+            
+            let isQA = components.contains{$0.localizedCaseInsensitiveContains("qa-app")}
+            
+            if isQA {
+                UserDefaults.standard.setValue(true, forKey: "useQAEnv")
+                UserDefaults.standard.set("https://auth-nonprod.100ms.live", forKey: "HMSAuthTokenEndpointOverride")
+                UserDefaults.standard.set("https://api-nonprod.100ms.live", forKey: "HMSRoomLayoutEndpointOverride")
+                //                UserDefaults.standard.set("https://demo8271564.mockable.io", forKey: "HMSRoomLayoutEndpointOverride")
+            }
+            else {
+                UserDefaults.standard.removeObject(forKey: "useQAEnv")
+                UserDefaults.standard.removeObject(forKey: "HMSAuthTokenEndpointOverride")
+                UserDefaults.standard.removeObject(forKey: "HMSRoomLayoutEndpointOverride")
+                //                UserDefaults.standard.set("https://demo8271564.mockable.io", forKey: "HMSRoomLayoutEndpointOverride")
+            }
+            
+            isMeetingViewPresented.toggle()
+        }
     }
 }
 
 struct JoiningView_Previews: PreviewProvider {
     static var previews: some View {
-        JoiningView(roomCode: .constant("as"), isMeetingViewPresented: .constant(false), userName: .constant(""))
+        JoiningView(roomCode: .constant("as"), isMeetingViewPresented: .constant(false))
     }
 }
 
-enum HMSEnvironment {
-    case prod
-    case qa
-}
-
-extension UserDefaults {
-    static func setEnvironment(_ environment: HMSEnvironment) {
-        switch environment {
-        case .qa:
-            standard.setValue(true, forKey: "useQAEnv")
-            standard.set("https://auth-nonprod.100ms.live", forKey: "HMSAuthTokenEndpointOverride")
-            standard.set("https://api-nonprod.100ms.live", forKey: "HMSRoomLayoutEndpointOverride")
-        default:
-            standard.removeObject(forKey: "useQAEnv")
-            standard.removeObject(forKey: "HMSAuthTokenEndpointOverride")
-            standard.removeObject(forKey: "HMSRoomLayoutEndpointOverride")
-        }
-        //UserDefaults.standard.set("https://demo8271564.mockable.io", forKey: "HMSRoomLayoutEndpointOverride")
-    }
-}
-
-extension URL {
-    var hmsJoinLinkEnvironment: HMSEnvironment {
-        var isQALink = false
-        if #available(iOS 16.0, *) {
-            isQALink = host(percentEncoded: false)?.localizedCaseInsensitiveContains("qa-app") == true
-        } else {
-            isQALink = host?.localizedCaseInsensitiveContains("qa-app") == true
-        }
-        
-        return isQALink ? .qa : .prod
-    }
-    
-    var userName: String {
-        if let urlComponents = URLComponents(url: self, resolvingAgainstBaseURL: true), let queryItems = urlComponents.queryItems, let nameItem = queryItems.first(where: { $0.name == "name" }) {
-            return nameItem.value ?? ""
-        }
-        return ""
-    }
-}

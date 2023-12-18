@@ -13,25 +13,26 @@ struct ContentView: View {
     @AppStorage("CustomerUserID") var customerUserID: String = ""
     
     @State var roomCode = ""
+    @State var userName = ""
     @State var isMeetingViewPresented = false
     
     var body: some View {
         
         if isMeetingViewPresented && !roomCode.isEmpty {
             
-            HMSPrebuiltView(roomCode: roomCode, options: .init(roomOptions: .init(userId: customerUserID)), onDismiss: {
+            HMSPrebuiltView(roomCode: roomCode, options: .init(roomOptions: .init(userName: userName, userId: customerUserID)), onDismiss: {
                 isMeetingViewPresented = false
             })
             .screenShare(appGroupName: "group.live.100ms.videoapp.roomkit", screenShareBroadcastExtensionBundleId: "live.100ms.videoapp.roomkit.Screenshare")
+        }
+        else {
+            JoiningView(roomCode: $roomCode,
+                        isMeetingViewPresented: $isMeetingViewPresented, userName: $userName)
             .onAppear() {
                 if customerUserID.isEmpty {
                     customerUserID = UUID().uuidString
                 }
             }
-        }
-        else {
-            JoiningView(roomCode: $roomCode,
-                        isMeetingViewPresented: $isMeetingViewPresented)
         }
     }
 }

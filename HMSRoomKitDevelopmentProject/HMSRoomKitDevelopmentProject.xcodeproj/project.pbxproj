@@ -1073,7 +1073,6 @@
 				877C2D9F2B31A9C90025CE6D /* Participants List */,
 				877C2DA12B31A9C90025CE6D /* HMSChatParticipantToggleView.swift */,
 				877C2DA22B31A9C90025CE6D /* Chat */,
-				877C2DA42B31A9C90025CE6D /* Transparent Chat */,
 				877C2DA52B31A9C90025CE6D /* UI components */,
 				877C2DAA2B31A9C90025CE6D /* Components */,
 			);
@@ -1094,13 +1093,6 @@
 				877C2DA32B31A9C90025CE6D /* HMSChatScreen.swift */,
 			);
 			path = Chat;
-			sourceTree = "<group>";
-		};
-		877C2DA42B31A9C90025CE6D /* Transparent Chat */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Transparent Chat";
 			sourceTree = "<group>";
 		};
 		877C2DA52B31A9C90025CE6D /* UI components */ = {

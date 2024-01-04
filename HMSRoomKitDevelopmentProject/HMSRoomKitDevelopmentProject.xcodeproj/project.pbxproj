@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		871D2B432B271E8B00094EBF /* HMSAnalyticsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B422B271E8B00094EBF /* HMSAnalyticsSDK */; };
-		871D2B452B271E8B00094EBF /* HMSBroadcastExtensionSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B442B271E8B00094EBF /* HMSBroadcastExtensionSDK */; };
-		871D2B472B271E8B00094EBF /* HMSHLSPlayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B462B271E8B00094EBF /* HMSHLSPlayerSDK */; };
-		871D2B492B271E8B00094EBF /* HMSRoomModels in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B482B271E8B00094EBF /* HMSRoomModels */; };
-		871D2B4B2B271E8B00094EBF /* HMSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B4A2B271E8B00094EBF /* HMSSDK */; };
-		871D2B4D2B271E8B00094EBF /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B4C2B271E8B00094EBF /* WebRTC */; };
 		875750792B46BD1B002E8D4A /* HMSPeerModel-Higher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875750602B46BD1B002E8D4A /* HMSPeerModel-Higher.swift */; };
 		8757507A2B46BD1B002E8D4A /* HMSPeerModel-Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875750612B46BD1B002E8D4A /* HMSPeerModel-Base.swift */; };
 		8757507B2B46BD1B002E8D4A /* HMSPeerModel-Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875750622B46BD1B002E8D4A /* HMSPeerModel-Preview.swift */; };
@@ -214,6 +208,12 @@
 		8757521A2B46BD25002E8D4A /* HMSThemeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875751682B46BD25002E8D4A /* HMSThemeModifiers.swift */; };
 		8757521B2B46BD25002E8D4A /* HMSUIColorTheme-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875751692B46BD25002E8D4A /* HMSUIColorTheme-extension.swift */; };
 		8757521C2B46BD25002E8D4A /* HMSRoomKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8757516A2B46BD25002E8D4A /* HMSRoomKit.docc */; };
+		875752202B46BE6A002E8D4A /* HMSAnalyticsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8757521F2B46BE6A002E8D4A /* HMSAnalyticsSDK */; };
+		875752222B46BE6A002E8D4A /* HMSBroadcastExtensionSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 875752212B46BE6A002E8D4A /* HMSBroadcastExtensionSDK */; };
+		875752242B46BE6A002E8D4A /* HMSHLSPlayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 875752232B46BE6A002E8D4A /* HMSHLSPlayerSDK */; };
+		875752262B46BE6A002E8D4A /* HMSRoomModels in Frameworks */ = {isa = PBXBuildFile; productRef = 875752252B46BE6A002E8D4A /* HMSRoomModels */; };
+		875752282B46BE6A002E8D4A /* HMSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 875752272B46BE6A002E8D4A /* HMSSDK */; };
+		8757522A2B46BE6A002E8D4A /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 875752292B46BE6A002E8D4A /* WebRTC */; };
 		875F3A622AB19E7300904307 /* HMSRoomKitDevelopmentProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F3A612AB19E7300904307 /* HMSRoomKitDevelopmentProjectApp.swift */; };
 		875F3A662AB19E7500904307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F3A652AB19E7500904307 /* Assets.xcassets */; };
 		875F3A692AB19E7500904307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F3A682AB19E7500904307 /* Preview Assets.xcassets */; };
@@ -259,8 +259,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		871D2B412B271E8300094EBF /* 100ms-roomkit-models-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-models-ios"; path = "../../100ms-roomkit-models-ios"; sourceTree = "<group>"; };
-		871D2B4E2B271ECC00094EBF /* 100ms-roomkit-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-ios"; path = "../../100ms-roomkit-ios"; sourceTree = "<group>"; };
 		875750602B46BD1B002E8D4A /* HMSPeerModel-Higher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Higher.swift"; sourceTree = "<group>"; };
 		875750612B46BD1B002E8D4A /* HMSPeerModel-Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Base.swift"; sourceTree = "<group>"; };
 		875750622B46BD1B002E8D4A /* HMSPeerModel-Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSPeerModel-Preview.swift"; sourceTree = "<group>"; };
@@ -463,6 +461,8 @@
 		875751682B46BD25002E8D4A /* HMSThemeModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSThemeModifiers.swift; sourceTree = "<group>"; };
 		875751692B46BD25002E8D4A /* HMSUIColorTheme-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMSUIColorTheme-extension.swift"; sourceTree = "<group>"; };
 		8757516A2B46BD25002E8D4A /* HMSRoomKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HMSRoomKit.docc; sourceTree = "<group>"; };
+		8757521D2B46BE56002E8D4A /* 100ms-roomkit-models-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-models-ios"; path = "../../100ms-roomkit-models-ios"; sourceTree = "<group>"; };
+		8757521E2B46BE5A002E8D4A /* 100ms-roomkit-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-ios"; path = "../../100ms-roomkit-ios"; sourceTree = "<group>"; };
 		875F3A5E2AB19E7300904307 /* HMSRoomKitDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMSRoomKitDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875F3A612AB19E7300904307 /* HMSRoomKitDevelopmentProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSRoomKitDevelopmentProjectApp.swift; sourceTree = "<group>"; };
 		875F3A652AB19E7500904307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -501,12 +501,12 @@
 			files = (
 				87E669B52AB4F02600073016 /* Popovers in Frameworks */,
 				87E669B22AB4EEBD00073016 /* Lottie in Frameworks */,
-				871D2B452B271E8B00094EBF /* HMSBroadcastExtensionSDK in Frameworks */,
-				871D2B472B271E8B00094EBF /* HMSHLSPlayerSDK in Frameworks */,
-				871D2B492B271E8B00094EBF /* HMSRoomModels in Frameworks */,
-				871D2B4D2B271E8B00094EBF /* WebRTC in Frameworks */,
-				871D2B4B2B271E8B00094EBF /* HMSSDK in Frameworks */,
-				871D2B432B271E8B00094EBF /* HMSAnalyticsSDK in Frameworks */,
+				875752222B46BE6A002E8D4A /* HMSBroadcastExtensionSDK in Frameworks */,
+				875752242B46BE6A002E8D4A /* HMSHLSPlayerSDK in Frameworks */,
+				875752262B46BE6A002E8D4A /* HMSRoomModels in Frameworks */,
+				8757522A2B46BE6A002E8D4A /* WebRTC in Frameworks */,
+				875752282B46BE6A002E8D4A /* HMSSDK in Frameworks */,
+				875752202B46BE6A002E8D4A /* HMSAnalyticsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,10 +1078,10 @@
 		875F3A552AB19E7300904307 = {
 			isa = PBXGroup;
 			children = (
+				8757521E2B46BE5A002E8D4A /* 100ms-roomkit-ios */,
+				8757521D2B46BE56002E8D4A /* 100ms-roomkit-models-ios */,
 				875750902B46BD24002E8D4A /* HMSRoomKit */,
 				8757505E2B46BD1B002E8D4A /* HMSRoomModels */,
-				871D2B4E2B271ECC00094EBF /* 100ms-roomkit-ios */,
-				871D2B412B271E8300094EBF /* 100ms-roomkit-models-ios */,
 				875F3A602AB19E7300904307 /* HMSRoomKitDevelopment */,
 				875F3BBE2AB1A2CA00904307 /* HMSRoomKitPreview */,
 				875F40CD2AB1AA4D00904307 /* Screenshare */,
@@ -1219,12 +1219,12 @@
 			packageProductDependencies = (
 				87E669B12AB4EEBD00073016 /* Lottie */,
 				87E669B42AB4F02600073016 /* Popovers */,
-				871D2B422B271E8B00094EBF /* HMSAnalyticsSDK */,
-				871D2B442B271E8B00094EBF /* HMSBroadcastExtensionSDK */,
-				871D2B462B271E8B00094EBF /* HMSHLSPlayerSDK */,
-				871D2B482B271E8B00094EBF /* HMSRoomModels */,
-				871D2B4A2B271E8B00094EBF /* HMSSDK */,
-				871D2B4C2B271E8B00094EBF /* WebRTC */,
+				8757521F2B46BE6A002E8D4A /* HMSAnalyticsSDK */,
+				875752212B46BE6A002E8D4A /* HMSBroadcastExtensionSDK */,
+				875752232B46BE6A002E8D4A /* HMSHLSPlayerSDK */,
+				875752252B46BE6A002E8D4A /* HMSRoomModels */,
+				875752272B46BE6A002E8D4A /* HMSSDK */,
+				875752292B46BE6A002E8D4A /* WebRTC */,
 			);
 			productName = HMSRoomKitPreview;
 			productReference = 875F3BBD2AB1A2CA00904307 /* HMSRoomKitPreview.app */;
@@ -1924,7 +1924,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/100mslive/100ms-roomkit-ios";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 1.1.0;
 			};
 		};
@@ -1939,27 +1939,27 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		871D2B422B271E8B00094EBF /* HMSAnalyticsSDK */ = {
+		8757521F2B46BE6A002E8D4A /* HMSAnalyticsSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSAnalyticsSDK;
 		};
-		871D2B442B271E8B00094EBF /* HMSBroadcastExtensionSDK */ = {
+		875752212B46BE6A002E8D4A /* HMSBroadcastExtensionSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSBroadcastExtensionSDK;
 		};
-		871D2B462B271E8B00094EBF /* HMSHLSPlayerSDK */ = {
+		875752232B46BE6A002E8D4A /* HMSHLSPlayerSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSHLSPlayerSDK;
 		};
-		871D2B482B271E8B00094EBF /* HMSRoomModels */ = {
+		875752252B46BE6A002E8D4A /* HMSRoomModels */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSRoomModels;
 		};
-		871D2B4A2B271E8B00094EBF /* HMSSDK */ = {
+		875752272B46BE6A002E8D4A /* HMSSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSSDK;
 		};
-		871D2B4C2B271E8B00094EBF /* WebRTC */ = {
+		875752292B46BE6A002E8D4A /* WebRTC */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WebRTC;
 		};

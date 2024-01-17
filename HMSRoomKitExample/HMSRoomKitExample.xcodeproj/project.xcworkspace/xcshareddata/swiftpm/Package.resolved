@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/100mslive/100ms-roomkit-ios",
       "state" : {
-        "revision" : "cbd913afeaf793dfc94aec65c197124b8d0d272d",
-        "version" : "1.1.0"
+        "revision" : "d1c62cdde2720f2d095244a743028fe9500d5687",
+        "version" : "1.5.1"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/100mslive/100ms-roomkit-models-ios",
       "state" : {
-        "revision" : "dc8701bf130c0ae787709342eb388836fa7c07cc",
-        "version" : "1.1.0"
+        "revision" : "9d22c278f3ba166cc094228349cef83e93003520",
+        "version" : "1.2.4"
       }
     },
     {
@@ -43,6 +43,15 @@
       "state" : {
         "revision" : "f9743225a3d1b8acf080be0b16c8b288588269dc",
         "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/swiftui-introspect",
+      "state" : {
+        "revision" : "18e965f867e37a558ad13c12d330dbe047099180",
+        "version" : "1.1.2"
       }
     }
   ],

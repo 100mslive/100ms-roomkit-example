@@ -226,6 +226,7 @@
 		875F40D32AB1AA4D00904307 /* Screenshare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 875F40CA2AB1AA4D00904307 /* Screenshare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		877353122B07956100CDC2D3 /* HMSRoomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 877353112B07956100CDC2D3 /* HMSRoomKit */; };
 		87952C142AB4DE5500929A30 /* CustomizationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87952C132AB4DE5500929A30 /* CustomizationExample.swift */; };
+		879F5CC42B70F95F00780B0D /* HMSPanAndZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F5CC32B70F95F00780B0D /* HMSPanAndZoomController.swift */; };
 		87A408102ABB00C700FF8700 /* JoiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080E2ABB00C700FF8700 /* JoiningView.swift */; };
 		87A408112ABB00C700FF8700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080F2ABB00C700FF8700 /* ContentView.swift */; };
 		87A408132ABB012000FF8700 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A408122ABB012000FF8700 /* SampleHandler.swift */; };
@@ -482,6 +483,7 @@
 		876B00012AB43C9C00F977F9 /* Screenshare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenshare.entitlements; sourceTree = "<group>"; };
 		878983FB2AEF920A00082848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87952C132AB4DE5500929A30 /* CustomizationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationExample.swift; sourceTree = "<group>"; };
+		879F5CC32B70F95F00780B0D /* HMSPanAndZoomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSPanAndZoomController.swift; sourceTree = "<group>"; };
 		87A4080E2ABB00C700FF8700 /* JoiningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoiningView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/JoiningView.swift; sourceTree = "<group>"; };
 		87A4080F2ABB00C700FF8700 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/ContentView.swift; sourceTree = "<group>"; };
 		87A408122ABB012000FF8700 /* SampleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleHandler.swift; path = ../../HMSRoomKitExample/Screenshare/SampleHandler.swift; sourceTree = "<group>"; };
@@ -538,6 +540,7 @@
 				871F06302B6D11DF00777F5B /* RoomModel */,
 				871F06382B6D11DF00777F5B /* SessionMetadata.swift */,
 				871F06392B6D11DF00777F5B /* PeerMetadata.swift */,
+				879F5CC32B70F95F00780B0D /* HMSPanAndZoomController.swift */,
 				871F063A2B6D11DF00777F5B /* HMSHLSPlayerView.swift */,
 			);
 			name = HMSRoomModels;
@@ -1482,6 +1485,7 @@
 				871F079A2B6D11EA00777F5B /* HMSEndCallOptionPopover.swift in Sources */,
 				871F07CF2B6D11EA00777F5B /* HMSChatScreen.swift in Sources */,
 				871F064F2B6D11DF00777F5B /* SessionMetadata.swift in Sources */,
+				879F5CC42B70F95F00780B0D /* HMSPanAndZoomController.swift in Sources */,
 				871F07B02B6D11EA00777F5B /* ConferenceEnvironment.swift in Sources */,
 				871F07992B6D11EA00777F5B /* HMSEndCallView.swift in Sources */,
 				871F075D2B6D11EA00777F5B /* HMSAudioLevelsView.swift in Sources */,

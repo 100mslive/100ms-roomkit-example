@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "100ms-noise-cancellation-models-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/100mslive/100ms-noise-cancellation-models-ios",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6a5a5e17330cf06870bad657f706ff63feb7a967"
+      }
+    },
+    {
       "identity" : "jwtdecode.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/auth0/JWTDecode.swift",

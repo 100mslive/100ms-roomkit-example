@@ -7,47 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3DEEE500-17E9-4CCF-BDA7-83717FD13BAB"
+            uuid = "C3942844-6838-4FC8-8364-4CA45CA21EB9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "on(error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0CB6E19-BF64-407B-B512-0F5784C90293"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../100ms-roomkit-ios/Sources/HMSRoomKit/Prebuilt/Internal/HMSPrebuiltMeetingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "3DEEE500-17E9-4CCF-BDA7-83717FD13BAB - 81ec1fca1a6689f3"
+                  uuid = "E0CB6E19-BF64-407B-B512-0F5784C90293 - db0c81331e13998b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.CGSize) -&gt; () in HMSRoomKitDevelopment.HMSHLSViewerScreen.body.getter : some"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt; in HMSRoomKit.HMSPrebuiltMeetingView.body.getter : some"
                   moduleName = "HMSRoomKitDevelopment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/Prebuilt/Internal/HMSPrebuiltMeetingView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "100">
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "7076">
                </Location>
                <Location
-                  uuid = "3DEEE500-17E9-4CCF-BDA7-83717FD13BAB - 7e5df581d677f4d"
+                  uuid = "E0CB6E19-BF64-407B-B512-0F5784C90293 - db0c81331e13998b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.CGSize) -&gt; () in HMSRoomKit.HMSHLSViewerScreen.body.getter : some"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt; in HMSRoomKit.HMSPrebuiltMeetingView.body.getter : some"
                   moduleName = "HMSRoomKitDevelopment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/Prebuilt/Internal/HMSPrebuiltMeetingView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "100">
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "7092">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -55,379 +71,110 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7EEEA671-71ED-4E34-895E-226876241A3C"
+            uuid = "EF479281-4111-4E39-9168-3B913504CE62"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "7EEEA671-71ED-4E34-895E-226876241A3C - ce3c4fa251032c2b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in HMSRoomKitDevelopment.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "7EEEA671-71ED-4E34-895E-226876241A3C - 4a077038c9e39abd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in HMSRoomKit.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "7EEEA671-71ED-4E34-895E-226876241A3C - ce3c4fa251032c2b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in HMSRoomKitDevelopment.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "7EEEA671-71ED-4E34-895E-226876241A3C - 4a077038c9e39abd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in HMSRoomKit.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "104">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7D6CE1E9-4234-4EB4-8C2A-8DA42594A6C4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "onPlaybackFailure(error:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7D6CE1E9-4234-4EB4-8C2A-8DA42594A6C4 - 3533100df7144ee7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.onPlaybackStateChanged(state: (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()) -&gt; HMSRoomKitDevelopment.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "7D6CE1E9-4234-4EB4-8C2A-8DA42594A6C4 - 328b1207b95da7f3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.onPlaybackStateChanged(state: (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()) -&gt; HMSRoomKit.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "80B014A3-2170-4F85-ABD3-D9DD8E944EDD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
-            landmarkName = "onPlaybackStateChanged(state:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "80B014A3-2170-4F85-ABD3-D9DD8E944EDD - 2e5a5e82fd0d2810"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.onResolutionChanged(videoSize: (__C.CGSize) -&gt; ()) -&gt; HMSRoomKitDevelopment.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "80B014A3-2170-4F85-ABD3-D9DD8E944EDD - 5108655d2baf7a1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.onResolutionChanged(videoSize: (__C.CGSize) -&gt; ()) -&gt; HMSRoomKit.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4284CF16-A6D3-4755-9885-FBF957E65130"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
-            landmarkName = "onCue(cue:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4284CF16-A6D3-4755-9885-FBF957E65130 - eedffa8c43ad9af5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.onPlaybackFailure(error: (Swift.Error) -&gt; ()) -&gt; HMSRoomKitDevelopment.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "4284CF16-A6D3-4755-9885-FBF957E65130 - 8db928f57b72a829"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.onPlaybackFailure(error: (Swift.Error) -&gt; ()) -&gt; HMSRoomKit.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B92C7600-162D-4FB5-8C5C-A8B65EB27C3A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
-            landmarkName = "onResolutionChanged(videoSize:)"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "leaveSession()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "89D3EB44-8880-42A1-95F4-1B8A7B91976C"
+            uuid = "F32407D0-9274-4F8F-865D-CB18BCCB0CC6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
-            landmarkName = "onResolutionChanged(videoSize:)"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "endSession(withReason:shouldAllowReJoin:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1BFEF2A2-A2E3-40D8-BBFD-79CEA027DD7B"
+            uuid = "80551545-01AA-42CD-93DA-B199746DA142"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
-            landmarkName = "onPlaybackFailure(error:)"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "on(removedFromRoom:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1BFEF2A2-A2E3-40D8-BBFD-79CEA027DD7B - 3533100df7144ee7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.onPlaybackStateChanged(state: (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()) -&gt; HMSRoomKitDevelopment.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "1BFEF2A2-A2E3-40D8-BBFD-79CEA027DD7B - fdb82b39654b4b2c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; () in HMSRoomKitDevelopment.HMSHLSPlayerView.onPlaybackStateChanged(state: (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()) -&gt; HMSRoomKitDevelopment.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "155"
-                  endingLineNumber = "155"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "1BFEF2A2-A2E3-40D8-BBFD-79CEA027DD7B - 328b1207b95da7f3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.onPlaybackStateChanged(state: (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()) -&gt; HMSRoomKit.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "1BFEF2A2-A2E3-40D8-BBFD-79CEA027DD7B - 9a4438a88894978e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; () in HMSRoomKit.HMSHLSPlayerView.onPlaybackStateChanged(state: (HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()) -&gt; HMSRoomKit.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "155"
-                  endingLineNumber = "155"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AD8FADDB-8CDA-4304-9D5D-D57CE14ADB24"
-            shouldBeEnabled = "Yes"
+            uuid = "A85A7519-69CB-44D4-8E84-EDA15A76126D"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+            filePath = "../HMSRoomKitExample/HMSRoomKitExample/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
             endingLineNumber = "24"
-            landmarkName = "AVPlayerModel"
-            landmarkType = "3">
+            landmarkName = "body"
+            landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "AD8FADDB-8CDA-4304-9D5D-D57CE14ADB24 - bea1c41fefab44f5"
+                  uuid = "A85A7519-69CB-44D4-8E84-EDA15A76126D - 3059081a20e67014"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.AVPlayerModel.deinit"
+                  symbolName = "HMSRoomKitDevelopment.ContentView.body.getter : some"
                   moduleName = "HMSRoomKitDevelopment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-example/HMSRoomKitExample/HMSRoomKitExample/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
                   endingLineNumber = "24"
-                  offsetFromSymbolStart = "80">
+                  offsetFromSymbolStart = "300">
                </Location>
                <Location
-                  uuid = "AD8FADDB-8CDA-4304-9D5D-D57CE14ADB24 - 29bc651f6aea3447"
+                  uuid = "A85A7519-69CB-44D4-8E84-EDA15A76126D - e9b31049e0ceb729"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.AVPlayerModel.deinit"
+                  symbolName = "closure #1 () -&gt; () in HMSRoomKitDevelopment.ContentView.body.getter : some"
                   moduleName = "HMSRoomKitDevelopment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-example/HMSRoomKitExample/HMSRoomKitExample/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "A85A7519-69CB-44D4-8E84-EDA15A76126D - 3059081a20e67014"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HMSRoomKitDevelopment.ContentView.body.getter : some"
+                  moduleName = "HMSRoomKitDevelopment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-example/HMSRoomKitExample/HMSRoomKitExample/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
                   endingLineNumber = "24"
-                  offsetFromSymbolStart = "80">
+                  offsetFromSymbolStart = "316">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -435,456 +182,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "62D38A3A-69C6-44B3-A5F8-A52D60C54FDD"
+            uuid = "E28BECD7-B3C4-43C9-A9D8-E2634BA0F97C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "Coordinator"
-            landmarkType = "3">
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "leaveSession()"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "62D38A3A-69C6-44B3-A5F8-A52D60C54FDD - 36ef2f6122f46df5"
+                  uuid = "E28BECD7-B3C4-43C9-A9D8-E2634BA0F97C - 34819bfb60b07656"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.PlayerDelegate.init() -&gt; HMSRoomKitDevelopment.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;.PlayerDelegate"
+                  symbolName = "HMSRoomModels.HMSRoomModel.leaveSession() async throws -&gt; ()"
                   moduleName = "HMSRoomKitDevelopment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "36">
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "72">
                </Location>
                <Location
-                  uuid = "62D38A3A-69C6-44B3-A5F8-A52D60C54FDD - c6f9e2ccd7634d24"
+                  uuid = "E28BECD7-B3C4-43C9-A9D8-E2634BA0F97C - 49962aabf817bd23"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.PlayerDelegate.init() -&gt; HMSRoomKit.HMSHLSPlayerView&lt;&#x3c4;_0_0&gt;.PlayerDelegate"
+                  symbolName = "(1) suspend resume partial function for HMSRoomModels.HMSRoomModel.leaveSession() async throws -&gt; ()"
                   moduleName = "HMSRoomKitDevelopment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
+                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "62D38A3A-69C6-44B3-A5F8-A52D60C54FDD - 8f58909f9f663001"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.Coordinator.deinit"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "62D38A3A-69C6-44B3-A5F8-A52D60C54FDD - bffaed3338b78af7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.Coordinator.deinit"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5200C8F7-7572-4ADB-AF50-E145DB8E9A19"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "onResolutionChanged(videoSize:)"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "5200C8F7-7572-4ADB-AF50-E145DB8E9A19 - cdee4c6db1ac04d4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.Coordinator.onPlaybackStateChanged(state: HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "5200C8F7-7572-4ADB-AF50-E145DB8E9A19 - b3e6121bfde85fab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.Coordinator.onPlaybackStateChanged(state: HMSHLSPlayerSDK.HMSHLSPlaybackState) -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "5200C8F7-7572-4ADB-AF50-E145DB8E9A19 - 70f2b72c1d31c2cf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.Coordinator.onResolutionChanged(videoSize: __C.CGSize) -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "128">
-               </Location>
-               <Location
-                  uuid = "5200C8F7-7572-4ADB-AF50-E145DB8E9A19 - 1590e0f8349a3091"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.Coordinator.onResolutionChanged(videoSize: __C.CGSize) -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/HLS/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "128">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2C5D1A48-3520-455F-8586-7C777025DFD2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSHLSViewerScreen.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "2C5D1A48-3520-455F-8586-7C777025DFD2 - 779b97be562403"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.CGSize) -&gt; () in HMSRoomKitDevelopment.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "2C5D1A48-3520-455F-8586-7C777025DFD2 - 867e5b05b957d2bd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.CGSize) -&gt; () in HMSRoomKit.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "100">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F19E0551-D607-45C0-AC5E-2046F022F9C2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSHLSViewerScreen.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "F19E0551-D607-45C0-AC5E-2046F022F9C2 - 4fa7cbfff533829b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in HMSRoomKitDevelopment.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "F19E0551-D607-45C0-AC5E-2046F022F9C2 - cb9cf4656dd3340d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in HMSRoomKit.HMSHLSViewerScreen.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSHLSViewerScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "100">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "61832FC8-69D3-4ED5-AE69-0C6ED91A02C5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/HMSHLSPlayerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "Coordinator"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "61832FC8-69D3-4ED5-AE69-0C6ED91A02C5 - 8f49dc34509706af"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKitDevelopment.HMSHLSPlayerView.Coordinator.deinit"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "61832FC8-69D3-4ED5-AE69-0C6ED91A02C5 - bfeba198f746bc59"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSHLSPlayerView.Coordinator.deinit"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/HMSHLSPlayerView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0B0F9927-5BAA-45E1-A5E4-89DB74C709C4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/HMSRoomModel-Preview.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "HMSRoomModel"
-            landmarkType = "21">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "76E8FE16-2E60-450F-AD13-582F115147BF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/HMSRoomModel-Internal-Callbacks.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "HMSRoomModel"
-            landmarkType = "21">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C62EE0E4-E916-42F4-BCAC-E15705B02527"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents - Internal/HMSOptionSheetView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E34FA490-D65B-4FB7-AE51-4CB593CD46E1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Sources/HMSRoomKit/UIComponents/Preview/Internal/HMSRoomKitPollModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37">
-            <Locations>
-               <Location
-                  uuid = "E34FA490-D65B-4FB7-AE51-4CB593CD46E1 - 9f2218470855f608"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (HMSSDK.HMSPoll, HMSSDK.HMSPollUpdateType) -&gt; () in HMSRoomKit.HMSRoomKitPollModel.beginListeningForPolls() -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Preview/Internal/HMSRoomKitPollModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "296">
-               </Location>
-               <Location
-                  uuid = "E34FA490-D65B-4FB7-AE51-4CB593CD46E1 - c38a731f0c635869"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HMSRoomKit.HMSRoomKitPollModel.beginListeningForPolls() -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Preview/Internal/HMSRoomKitPollModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "156">
-               </Location>
-               <Location
-                  uuid = "E34FA490-D65B-4FB7-AE51-4CB593CD46E1 - 68936f05942e928b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (HMSSDK.HMSPoll) -&gt; () in HMSRoomKit.HMSRoomKitPollModel.beginListeningForPolls() -&gt; ()"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Preview/Internal/HMSRoomKitPollModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "112">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1DDE8375-0679-4865-A71B-9EF09EF8A1E6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSChatOverlay.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "1DDE8375-0679-4865-A71B-9EF09EF8A1E6 - dcde5c62dfce1cf8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.EmptyView, &lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in HMSRoomKit.HMSChatOverlay.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSChatOverlay.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "16632">
-               </Location>
-               <Location
-                  uuid = "1DDE8375-0679-4865-A71B-9EF09EF8A1E6 - dcde5c62dfce1cf8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.EmptyView, &lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in HMSRoomKit.HMSChatOverlay.body.getter : some"
-                  moduleName = "HMSRoomKitDevelopment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pawan/100ms/RoomKit/100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Conferencing/Internal/HMSChatOverlay.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "16648">
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "44">
                </Location>
             </Locations>
          </BreakpointContent>

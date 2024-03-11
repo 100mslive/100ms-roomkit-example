@@ -7,6 +7,7 @@
 
 import SwiftUI
 import HMSRoomKit
+import HMSNoiseCancellationModels
 
 struct ContentView: View {
     
@@ -24,6 +25,7 @@ struct ContentView: View {
                 isMeetingViewPresented = false
             })
             .screenShare(appGroupName: "group.live.100ms.videoapp.roomkit", screenShareBroadcastExtensionBundleId: "live.100ms.videoapp.roomkit.Screenshare")
+            .noiseCancellation(model: HMSNoiseCancellationModels.path(for: .smallFullBand)!, initialState: .disabled)
         }
         else {
             JoiningView(roomCode: $roomCode,

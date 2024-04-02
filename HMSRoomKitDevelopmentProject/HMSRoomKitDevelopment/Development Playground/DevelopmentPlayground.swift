@@ -50,7 +50,7 @@ struct DevelopmentPlayground: View {
                 }
                 .tabItem { Text("Layout") }
             }
-            .environment(\.conferenceParams, .init(chat: .none, tileLayout: .none, onStageExperience: .none, brb: .none, participantList: .none))
+            .environment(\.conferenceParams, .init(chat: .none, tileLayout: .none, onStageExperience: .none, brb: .none, participantList: .none, isHandRaiseEnabled: false))
         }
         .environmentObject(room)
         .environmentObject(HMSUITheme())

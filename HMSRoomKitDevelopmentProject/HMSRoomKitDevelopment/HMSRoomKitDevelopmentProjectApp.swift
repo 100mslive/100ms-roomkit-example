@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct HMSRoomKitDevelopmentProjectApp: App {
     var body: some Scene {

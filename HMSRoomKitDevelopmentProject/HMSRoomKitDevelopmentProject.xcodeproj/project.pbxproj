@@ -22,6 +22,7 @@
 		877887692BBC071700EDADC5 /* HMSRoomModels in Frameworks */ = {isa = PBXBuildFile; productRef = 877887682BBC071700EDADC5 /* HMSRoomModels */; };
 		8778876B2BBC071700EDADC5 /* HMSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8778876A2BBC071700EDADC5 /* HMSSDK */; };
 		8778876D2BBC071700EDADC5 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 8778876C2BBC071700EDADC5 /* WebRTC */; };
+		8778876F2BBC242B00EDADC5 /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8778876E2BBC242B00EDADC5 /* TranscriptView.swift */; };
 		87952C142AB4DE5500929A30 /* CustomizationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87952C132AB4DE5500929A30 /* CustomizationExample.swift */; };
 		87A408102ABB00C700FF8700 /* JoiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080E2ABB00C700FF8700 /* JoiningView.swift */; };
 		87A408112ABB00C700FF8700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080F2ABB00C700FF8700 /* ContentView.swift */; };
@@ -282,6 +283,7 @@
 		875F40D02AB1AA4D00904307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875F40DD2AB1AA9B00904307 /* HMSRoomKitDevelopment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMSRoomKitDevelopment.entitlements; sourceTree = "<group>"; };
 		876B00012AB43C9C00F977F9 /* Screenshare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenshare.entitlements; sourceTree = "<group>"; };
+		8778876E2BBC242B00EDADC5 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
 		878983FB2AEF920A00082848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87952C132AB4DE5500929A30 /* CustomizationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationExample.swift; sourceTree = "<group>"; };
 		87A4080E2ABB00C700FF8700 /* JoiningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoiningView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/JoiningView.swift; sourceTree = "<group>"; };
@@ -942,6 +944,7 @@
 			children = (
 				87D30F7F2BAC2936008873DB /* Notification Model */,
 				87D30F802BAC2936008873DB /* HMSNotificationStackView.swift */,
+				8778876E2BBC242B00EDADC5 /* TranscriptView.swift */,
 				87D30F812BAC2936008873DB /* HMSNotificationView.swift */,
 			);
 			path = "Toast Notifications";
@@ -1417,6 +1420,7 @@
 				87D310232BAC2936008873DB /* HMSCustomSlider.swift in Sources */,
 				87AF56772BA44C490086EEBF /* HMSNoiseCancellation.swift in Sources */,
 				87D310672BAC2936008873DB /* HMSEndCallButton.swift in Sources */,
+				8778876F2BBC242B00EDADC5 /* TranscriptView.swift in Sources */,
 				87D310582BAC2936008873DB /* HMSPreviewBottomOverlay.swift in Sources */,
 				87AF56642BA44C490086EEBF /* HMSPeerModel-Base-Actions.swift in Sources */,
 				87D3106D2BAC2936008873DB /* PollQuestionsCreateView.swift in Sources */,

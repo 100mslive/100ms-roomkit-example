@@ -30,8 +30,8 @@
             filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "on(removedFromRoom:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -129,70 +129,6 @@
             startingLineNumber = "45"
             endingLineNumber = "45"
             landmarkName = "init(token:options:onDismiss:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4B8D56FA-751F-4904-A052-1B1AF5C07A3E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "on(join:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DA54BAF1-32EB-4A5E-A720-C7CD3961780F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "on(join:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "67794B2B-19C9-4783-8638-7059785519EA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "on(join:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "485E4C54-CE35-428C-8BD3-E2985A0ED35D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Internal-Callbacks.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "on(join:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

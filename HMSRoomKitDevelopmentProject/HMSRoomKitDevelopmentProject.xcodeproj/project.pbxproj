@@ -15,6 +15,7 @@
 		875F3BC72AB1A2CB00904307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F3BC62AB1A2CB00904307 /* Preview Assets.xcassets */; };
 		875F40CC2AB1AA4D00904307 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875F40CB2AB1AA4D00904307 /* ReplayKit.framework */; };
 		875F40D32AB1AA4D00904307 /* Screenshare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 875F40CA2AB1AA4D00904307 /* Screenshare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		876E09242BE2618900A62C5A /* HMSChangeRoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E09232BE2618900A62C5A /* HMSChangeRoleView.swift */; };
 		877353122B07956100CDC2D3 /* HMSRoomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 877353112B07956100CDC2D3 /* HMSRoomKit */; };
 		877887632BBC071700EDADC5 /* HMSAnalyticsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 877887622BBC071700EDADC5 /* HMSAnalyticsSDK */; };
 		877887652BBC071700EDADC5 /* HMSBroadcastExtensionSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 877887642BBC071700EDADC5 /* HMSBroadcastExtensionSDK */; };
@@ -283,6 +284,7 @@
 		875F40D02AB1AA4D00904307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875F40DD2AB1AA9B00904307 /* HMSRoomKitDevelopment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMSRoomKitDevelopment.entitlements; sourceTree = "<group>"; };
 		876B00012AB43C9C00F977F9 /* Screenshare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenshare.entitlements; sourceTree = "<group>"; };
+		876E09232BE2618900A62C5A /* HMSChangeRoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSChangeRoleView.swift; sourceTree = "<group>"; };
 		8778876E2BBC242B00EDADC5 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
 		878983FB2AEF920A00082848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87952C132AB4DE5500929A30 /* CustomizationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationExample.swift; sourceTree = "<group>"; };
@@ -1148,6 +1150,7 @@
 				87D30FCE2BAC2936008873DB /* HMSCameraToggle.swift */,
 				87D30FCF2BAC2936008873DB /* HMSCancelButton.swift */,
 				87D30FD02BAC2936008873DB /* HMSChangeNameView.swift */,
+				876E09232BE2618900A62C5A /* HMSChangeRoleView.swift */,
 				87D30FD12BAC2936008873DB /* HMSChatAvatarView.swift */,
 				87D30FD22BAC2936008873DB /* HMSCompanyLogoView.swift */,
 				87D30FD32BAC2936008873DB /* HMSDefaultTileView.swift */,
@@ -1562,6 +1565,7 @@
 				87D310752BAC2936008873DB /* PickerField.swift in Sources */,
 				87D310902BAC2936008873DB /* HMSDeviceSettingsSheetView.swift in Sources */,
 				87D310252BAC2936008873DB /* HMSJoinNameView.swift in Sources */,
+				876E09242BE2618900A62C5A /* HMSChangeRoleView.swift in Sources */,
 				87D310912BAC2936008873DB /* HMSHandRaisedToggleView.swift in Sources */,
 				87D310432BAC2936008873DB /* HMSPaginatedBottomTilesView.swift in Sources */,
 				87D3105D2BAC2936008873DB /* PreviewEnvironment.swift in Sources */,

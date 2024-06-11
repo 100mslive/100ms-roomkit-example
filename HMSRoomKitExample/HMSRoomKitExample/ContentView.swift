@@ -37,7 +37,9 @@ struct ContentView: View {
                 }
             }
         } else {
-            HMSPrebuiltDiagnosticsView()
+            HMSPrebuiltDiagnosticsView(onDismiss: {
+                isDiagnosticsViewPresented = false
+            })
         }
     }
 }

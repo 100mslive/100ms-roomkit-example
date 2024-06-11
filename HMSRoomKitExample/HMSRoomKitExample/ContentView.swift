@@ -16,6 +16,7 @@ struct ContentView: View {
     @State var roomCode = ""
     @State var userName = ""
     @State var isMeetingViewPresented = false
+    @State var isDiagnosticsViewPresented = false
     
     var body: some View {
         
@@ -27,14 +28,16 @@ struct ContentView: View {
             .screenShare(appGroupName: "group.live.100ms.videoapp.roomkit", screenShareBroadcastExtensionBundleId: "live.100ms.videoapp.roomkit.Screenshare")
             .noiseCancellation(model: HMSNoiseCancellationModels.path(for: .smallFullBand)!, initialState: .disabled)
         }
-        else {
+        else if !isDiagnosticsViewPresented {
             JoiningView(roomCode: $roomCode,
-                        isMeetingViewPresented: $isMeetingViewPresented, userName: $userName)
+                        isMeetingViewPresented: $isMeetingViewPresented, isDiagnosticsViewPresented: $isDiagnosticsViewPresented, userName: $userName)
             .onAppear() {
                 if customerUserID.isEmpty {
                     customerUserID = UUID().uuidString
                 }
             }
+        } else {
+            HMSPrebuiltDiagnosticsView()
         }
     }
 }

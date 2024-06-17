@@ -55,80 +55,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1FC9B819-A5DB-4A74-8085-E478669A27D6"
+            uuid = "864CDC32-92BD-40C4-9622-E5CFFB6B8125"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "574"
-            endingLineNumber = "574"
-            landmarkName = "startWhiteboard()"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "init(roomCode:options:builder:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8D5259D6-DE14-4ED4-950C-94EC695F2FEB"
+            uuid = "520C5B8D-969B-4CA5-BDC8-6155EF51321E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
+            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "576"
-            endingLineNumber = "576"
-            landmarkName = "startWhiteboard()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7B41DBE8-5D25-47E2-8563-3521EF81F0FE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "588"
-            endingLineNumber = "588"
-            landmarkName = "stopWhiteboard()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8F7C1D9E-F8F5-4A48-96E9-28065989D218"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel-Base-Actions.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "590"
-            endingLineNumber = "590"
-            landmarkName = "stopWhiteboard()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6DC8A9A0-5BB8-49F7-BA2B-8483A93D42A3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../100ms-roomkit-ios/Sources/HMSRoomKit/Prebuilt/Public/HMSPrebuiltView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "init(token:options:onDismiss:)"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "init(roomCode:options:builder:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

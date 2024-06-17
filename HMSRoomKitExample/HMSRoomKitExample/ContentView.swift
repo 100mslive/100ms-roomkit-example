@@ -21,7 +21,7 @@ struct ContentView: View {
         
         if isMeetingViewPresented && !roomCode.isEmpty {
             
-            HMSPrebuiltView(roomCode: roomCode, options: .init(roomOptions: .init(userName: userName, userId: customerUserID)), onDismiss: {
+            HMSPrebuiltView(roomCode: roomCode, options: .init(roomOptions: .init(userName: userName, userId: customerUserID, virtualBackground: .init(with: .blur(40), initialState: .enabled))), onDismiss: {
                 isMeetingViewPresented = false
             })
             .screenShare(appGroupName: "group.live.100ms.videoapp.roomkit", screenShareBroadcastExtensionBundleId: "live.100ms.videoapp.roomkit.Screenshare")

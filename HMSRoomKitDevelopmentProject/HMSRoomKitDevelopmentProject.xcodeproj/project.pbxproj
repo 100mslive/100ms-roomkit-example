@@ -241,7 +241,6 @@
 		877887632BBC071700EDADC5 /* HMSAnalyticsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 877887622BBC071700EDADC5 /* HMSAnalyticsSDK */; };
 		877887652BBC071700EDADC5 /* HMSBroadcastExtensionSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 877887642BBC071700EDADC5 /* HMSBroadcastExtensionSDK */; };
 		877887672BBC071700EDADC5 /* HMSHLSPlayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 877887662BBC071700EDADC5 /* HMSHLSPlayerSDK */; };
-		877887692BBC071700EDADC5 /* HMSRoomModels in Frameworks */ = {isa = PBXBuildFile; productRef = 877887682BBC071700EDADC5 /* HMSRoomModels */; };
 		8778876B2BBC071700EDADC5 /* HMSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8778876A2BBC071700EDADC5 /* HMSSDK */; };
 		8778876D2BBC071700EDADC5 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 8778876C2BBC071700EDADC5 /* WebRTC */; };
 		87952C142AB4DE5500929A30 /* CustomizationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87952C132AB4DE5500929A30 /* CustomizationExample.swift */; };
@@ -249,6 +248,11 @@
 		87A408112ABB00C700FF8700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080F2ABB00C700FF8700 /* ContentView.swift */; };
 		87A408132ABB012000FF8700 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A408122ABB012000FF8700 /* SampleHandler.swift */; };
 		87B1D4172AB81FD8001EBFA7 /* DevelopmentPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B1D4162AB81FD8001EBFA7 /* DevelopmentPlayground.swift */; };
+		87BD4BFC2C2959930093D5DE /* HMSVirtualBackgroundControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD4BFB2C2959930093D5DE /* HMSVirtualBackgroundControl.swift */; };
+		87BD4BFE2C2959ED0093D5DE /* HMSVirtualBackgroundButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD4BFD2C2959ED0093D5DE /* HMSVirtualBackgroundButtonView.swift */; };
+		87BD4C002C295B930093D5DE /* HMSVirtualBackgroundControlsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD4BFF2C295B930093D5DE /* HMSVirtualBackgroundControlsSheetView.swift */; };
+		87BD4C022C2990DD0093D5DE /* HMSRoomModels in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD4C012C2990DD0093D5DE /* HMSRoomModels */; };
+		87CF38C62C2D4F960016E8F7 /* HMSImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF38C52C2D4F960016E8F7 /* HMSImageCache.swift */; };
 		87E669B22AB4EEBD00073016 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 87E669B12AB4EEBD00073016 /* Lottie */; };
 		87E669B52AB4F02600073016 /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 87E669B42AB4F02600073016 /* Popovers */; };
 		87F2FEAB2ABD75FB00FB62C2 /* RoomStatesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F2FEAA2ABD75FB00FB62C2 /* RoomStatesExample.swift */; };
@@ -524,6 +528,10 @@
 		87AF58102BA44C5C0086EEBF /* 100ms-roomkit-models-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-models-ios"; path = "../../100ms-roomkit-models-ios"; sourceTree = "<group>"; };
 		87AF58112BA44C600086EEBF /* 100ms-roomkit-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-ios"; path = "../../100ms-roomkit-ios"; sourceTree = "<group>"; };
 		87B1D4162AB81FD8001EBFA7 /* DevelopmentPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopmentPlayground.swift; sourceTree = "<group>"; };
+		87BD4BFB2C2959930093D5DE /* HMSVirtualBackgroundControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSVirtualBackgroundControl.swift; sourceTree = "<group>"; };
+		87BD4BFD2C2959ED0093D5DE /* HMSVirtualBackgroundButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSVirtualBackgroundButtonView.swift; sourceTree = "<group>"; };
+		87BD4BFF2C295B930093D5DE /* HMSVirtualBackgroundControlsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSVirtualBackgroundControlsSheetView.swift; sourceTree = "<group>"; };
+		87CF38C52C2D4F960016E8F7 /* HMSImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSImageCache.swift; sourceTree = "<group>"; };
 		87F2FEAA2ABD75FB00FB62C2 /* RoomStatesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStatesExample.swift; sourceTree = "<group>"; };
 		87FC805C2AD95990001DAED9 /* RoomModelStandaloneExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModelStandaloneExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -545,9 +553,9 @@
 				87E669B22AB4EEBD00073016 /* Lottie in Frameworks */,
 				877887652BBC071700EDADC5 /* HMSBroadcastExtensionSDK in Frameworks */,
 				877887672BBC071700EDADC5 /* HMSHLSPlayerSDK in Frameworks */,
-				877887692BBC071700EDADC5 /* HMSRoomModels in Frameworks */,
 				8778876D2BBC071700EDADC5 /* WebRTC in Frameworks */,
 				8778876B2BBC071700EDADC5 /* HMSSDK in Frameworks */,
+				87BD4C022C2990DD0093D5DE /* HMSRoomModels in Frameworks */,
 				877887632BBC071700EDADC5 /* HMSAnalyticsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -755,6 +763,7 @@
 				875C850F2C2075DC0037FB49 /* HMSScreenToggleView.swift */,
 				875C85102C2075DC0037FB49 /* HMSSpeakerButtonView.swift */,
 				875C85112C2075DC0037FB49 /* HMSSwitchCameraButtonView.swift */,
+				87BD4BFD2C2959ED0093D5DE /* HMSVirtualBackgroundButtonView.swift */,
 				875C85122C2075DC0037FB49 /* HMSXMarkCircleView.swift */,
 			);
 			path = Controls;
@@ -956,6 +965,8 @@
 				875C85602C2075DC0037FB49 /* HMSPreviewRoleBottomOverlay.swift */,
 				875C85612C2075DC0037FB49 /* HMSPreviewRoleScreen.swift */,
 				875C85622C2075DC0037FB49 /* HMSPreviewScreenLiveStreaming.swift */,
+				87BD4BFF2C295B930093D5DE /* HMSVirtualBackgroundControlsSheetView.swift */,
+				87CF38C52C2D4F960016E8F7 /* HMSImageCache.swift */,
 				875C85632C2075DC0037FB49 /* HMSPreviewTopOverlay.swift */,
 				875C85642C2075DC0037FB49 /* PreviewEnvironment.swift */,
 			);
@@ -1131,6 +1142,7 @@
 				875C85B72C2075DC0037FB49 /* HMSStopRecordingView.swift */,
 				875C85B82C2075DC0037FB49 /* HMSStreamingStatusView.swift */,
 				875C85B92C2075DC0037FB49 /* HMSSwitchCameraButton.swift */,
+				87BD4BFB2C2959930093D5DE /* HMSVirtualBackgroundControl.swift */,
 				875C85BA2C2075DC0037FB49 /* Webview.swift */,
 				875C85BB2C2075DC0037FB49 /* WhiteboardView.swift */,
 			);
@@ -1317,9 +1329,9 @@
 				877887622BBC071700EDADC5 /* HMSAnalyticsSDK */,
 				877887642BBC071700EDADC5 /* HMSBroadcastExtensionSDK */,
 				877887662BBC071700EDADC5 /* HMSHLSPlayerSDK */,
-				877887682BBC071700EDADC5 /* HMSRoomModels */,
 				8778876A2BBC071700EDADC5 /* HMSSDK */,
 				8778876C2BBC071700EDADC5 /* WebRTC */,
+				87BD4C012C2990DD0093D5DE /* HMSRoomModels */,
 			);
 			productName = HMSRoomKitPreview;
 			productReference = 875F3BBD2AB1A2CA00904307 /* HMSRoomKitPreview.app */;
@@ -1461,6 +1473,7 @@
 				875C85CE2C2075DC0037FB49 /* HMSPrebuiltDiagnosticsRegionStepView.swift in Sources */,
 				875C84D02C2075D20037FB49 /* HMSRoomModel-Preview.swift in Sources */,
 				875C86752C2075DC0037FB49 /* HMSPeerVolumeOptionView.swift in Sources */,
+				87CF38C62C2D4F960016E8F7 /* HMSImageCache.swift in Sources */,
 				875C86262C2075DC0037FB49 /* HMSNotificationView.swift in Sources */,
 				875C86872C2075DC0037FB49 /* ImageExtension.swift in Sources */,
 				875C84C22C2075D20037FB49 /* HMSHLSPlayerView.swift in Sources */,
@@ -1535,6 +1548,7 @@
 				875C85F52C2075DC0037FB49 /* HMSSwitchCameraButtonView.swift in Sources */,
 				875C85D12C2075DC0037FB49 /* HMSRoomInfoModel.swift in Sources */,
 				875C85EB2C2075DC0037FB49 /* HMSChatToggleView.swift in Sources */,
+				87BD4BFE2C2959ED0093D5DE /* HMSVirtualBackgroundButtonView.swift in Sources */,
 				875C86292C2075DC0037FB49 /* HMSHLSQualityPickerView.swift in Sources */,
 				875C860B2C2075DC0037FB49 /* HMSChatPlaceholderView.swift in Sources */,
 				875C86502C2075DC0037FB49 /* PollStateBadgeView.swift in Sources */,
@@ -1561,7 +1575,9 @@
 				875C84CC2C2075D20037FB49 /* HMSRoomModel-Base.swift in Sources */,
 				875C84CF2C2075D20037FB49 /* HMSRoomModel-Internal-updates.swift in Sources */,
 				875C864E2C2075DC0037FB49 /* PickerField.swift in Sources */,
+				87BD4BFC2C2959930093D5DE /* HMSVirtualBackgroundControl.swift in Sources */,
 				875C862A2C2075DC0037FB49 /* HMSHLSViewerScreen.swift in Sources */,
+				87BD4C002C295B930093D5DE /* HMSVirtualBackgroundControlsSheetView.swift in Sources */,
 				875C85F22C2075DC0037FB49 /* HMSOptionsToggleView.swift in Sources */,
 				875C86772C2075DC0037FB49 /* HMSRecordingStatusView.swift in Sources */,
 				875C84C62C2075D20037FB49 /* HMSPeerModel-Higher.swift in Sources */,
@@ -2072,10 +2088,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSHLSPlayerSDK;
 		};
-		877887682BBC071700EDADC5 /* HMSRoomModels */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = HMSRoomModels;
-		};
 		8778876A2BBC071700EDADC5 /* HMSSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HMSSDK;
@@ -2083,6 +2095,10 @@
 		8778876C2BBC071700EDADC5 /* WebRTC */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WebRTC;
+		};
+		87BD4C012C2990DD0093D5DE /* HMSRoomModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HMSRoomModels;
 		};
 		87E669B12AB4EEBD00073016 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;

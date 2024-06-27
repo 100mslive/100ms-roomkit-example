@@ -28,7 +28,7 @@ struct DevelopmentPlayground: View {
 //                
                 HMSPreviewScreen()
             }
-            .environment(\.previewParams, .init(title: "Hello Kitty"))
+            .environment(\.previewParams, .init(title: "Hello Kitty", virtualBackgrounds: []))
             .tabItem { Text("Preview") }
             
             Group {

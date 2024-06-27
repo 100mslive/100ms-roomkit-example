@@ -62,8 +62,8 @@
             filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
             landmarkName = "init(roomCode:options:builder:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,10 +78,26 @@
             filePath = "../../100ms-roomkit-models-ios/Sources/HMSRoomModels/RoomModel/HMSRoomModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "186"
-            endingLineNumber = "186"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
             landmarkName = "init(roomCode:options:builder:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AF00644-F294-472F-A5F1-1AF4379FD228"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../100ms-roomkit-ios/Sources/HMSRoomKit/UIComponents/Preview/Internal/HMSVirtualBackgroundControlsSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

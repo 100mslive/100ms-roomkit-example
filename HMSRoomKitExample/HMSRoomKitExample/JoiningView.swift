@@ -12,10 +12,12 @@ struct JoiningView: View {
     
     var heading4Semibold34 =  Font(UIFont(name: "Inter-SemiBold", size: 34) ?? .systemFont(ofSize: 34))
     var body2Regular14 =  Font(UIFont(name: "Inter-Regular", size: 14) ?? .systemFont(ofSize: 14))
+    var body2Semibold14 =  Font(UIFont(name: "Inter-SemiBold", size: 14) ?? .systemFont(ofSize: 14))
     
     var backgroundDefault: Color = Color(UIColor(red: 11/255, green: 14/255, blue: 21/255, alpha: 1.0))
     var surfaceDefault: Color = Color(UIColor(red: 25/255, green: 27/255, blue: 35/255, alpha: 1.0))
     var primaryDisabled: Color = Color(UIColor(red: 0/255, green: 66/255, blue: 153/255, alpha: 1.0))
+    var primaryBright: Color = Color(UIColor(red: 83/255, green: 141/255, blue: 255/255, alpha: 1.0))
     var onPrimaryLow: Color = Color(UIColor(red: 132/255, green: 170/255, blue: 255/255, alpha: 1.0))
     var onPrimaryHigh: Color = Color(UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0))
     var primaryDefault: Color = Color(UIColor(red: 37/255, green: 114/255, blue: 237/255, alpha: 1.0))
@@ -26,6 +28,7 @@ struct JoiningView: View {
     
     @Binding var roomCode: String
     @Binding var isMeetingViewPresented: Bool
+    @Binding var isDiagnosticsViewPresented: Bool
     @Binding var userName: String
     
     @AppStorage("roomCodeOrRoomLink") var roomCodeOrRoomLink = ""
@@ -59,7 +62,21 @@ struct JoiningView: View {
                             .multilineTextAlignment(.center)
                             .foregroundStyle(mediumEmph)
                             .minimumScaleFactor(0.3)
+                        
+                        HStack(spacing: 9) {
+                            Image("diag-paperclip")
+                            Text("Troubleshoot before you join")
+                                .font(body2Semibold14)
+                                .foregroundStyle(primaryBright)
+                        }
+                        .padding(.vertical, 10)
+                        .onTapGesture {
+                            isDiagnosticsViewPresented = true
+                        }
+                        .padding(.top, 16)
                     }
+                    
+                    
                 }
                 
             }
@@ -128,7 +145,7 @@ struct JoiningView: View {
 
 struct JoiningView_Previews: PreviewProvider {
     static var previews: some View {
-        JoiningView(roomCode: .constant("as"), isMeetingViewPresented: .constant(false), userName: .constant(""))
+        JoiningView(roomCode: .constant("as"), isMeetingViewPresented: .constant(false), isDiagnosticsViewPresented: .constant(false), userName: .constant(""))
     }
 }
 
